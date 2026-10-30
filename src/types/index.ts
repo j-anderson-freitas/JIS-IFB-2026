@@ -79,6 +79,8 @@ export interface ComissaoOrganizadora {
   funcao: string;
   lotacao_campus_id?: string;
   subcomissao_modalidade_id?: string;
+  subcomissao_nome?: string;
+  contato?: string;
   lotacao?: Campus;
   subcomissao?: Modalidade;
 }
