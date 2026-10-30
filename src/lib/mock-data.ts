@@ -3,67 +3,67 @@ import { Campus, Modalidade, Equipe, Partida, ComissaoOrganizadora, PontuacaoGer
 
 export const CAMPI: Campus[] = [
   {
-    "id": "1",
+    "id": "00000000-0000-0000-0001-000000000001",
     "nome": "Campus Brasília",
     "sigla": "CBRA",
     "cor_primaria": "#288C28"
   },
   {
-    "id": "2",
+    "id": "00000000-0000-0000-0001-000000000002",
     "nome": "Campus Ceilândia",
     "sigla": "CCEI",
     "cor_primaria": "#1E2D3C"
   },
   {
-    "id": "3",
+    "id": "00000000-0000-0000-0001-000000000003",
     "nome": "Campus Estrutural",
     "sigla": "CEST",
     "cor_primaria": "#E1D287"
   },
   {
-    "id": "4",
+    "id": "00000000-0000-0000-0001-000000000004",
     "nome": "Campus Gama",
     "sigla": "CGAM",
     "cor_primaria": "#C81414"
   },
   {
-    "id": "5",
+    "id": "00000000-0000-0000-0001-000000000005",
     "nome": "Campus Planaltina",
     "sigla": "CPLA",
     "cor_primaria": "#78A55A"
   },
   {
-    "id": "6",
+    "id": "00000000-0000-0000-0001-000000000006",
     "nome": "Campus Recanto das Emas",
     "sigla": "CREC",
     "cor_primaria": "#F57656"
   },
   {
-    "id": "7",
+    "id": "00000000-0000-0000-0001-000000000007",
     "nome": "Campus Riacho Fundo",
     "sigla": "CRIA",
     "cor_primaria": "#349738"
   },
   {
-    "id": "8",
+    "id": "00000000-0000-0000-0001-000000000008",
     "nome": "Campus Samambaia",
     "sigla": "CSAM",
     "cor_primaria": "#1E2D3C"
   },
   {
-    "id": "9",
+    "id": "00000000-0000-0000-0001-000000000009",
     "nome": "Campus São Sebastião",
     "sigla": "CSSE",
     "cor_primaria": "#288C28"
   },
   {
-    "id": "10",
+    "id": "00000000-0000-0000-0001-000000000010",
     "nome": "Campus Taguatinga",
     "sigla": "CTAG",
     "cor_primaria": "#C81414"
   },
   {
-    "id": "11",
+    "id": "00000000-0000-0000-0001-000000000011",
     "nome": "Reitoria",
     "sigla": "REIT",
     "cor_primaria": "#1E2D3C"
@@ -72,7 +72,7 @@ export const CAMPI: Campus[] = [
 
 export const MODALIDADES: Modalidade[] = [
   {
-    "id": "1",
+    "id": "00000000-0000-0000-0002-000000000001",
     "nome": "Futsal",
     "tipo": "COLETIVA",
     "categoria": "MISTO",
@@ -81,7 +81,7 @@ export const MODALIDADES: Modalidade[] = [
     "total_vagas_ou_inscritos": 12
   },
   {
-    "id": "2",
+    "id": "00000000-0000-0000-0002-000000000002",
     "nome": "Vôlei de Areia",
     "tipo": "COLETIVA",
     "categoria": "MISTO",
@@ -90,7 +90,7 @@ export const MODALIDADES: Modalidade[] = [
     "total_vagas_ou_inscritos": 16
   },
   {
-    "id": "3",
+    "id": "00000000-0000-0000-0002-000000000003",
     "nome": "Vôlei de Quadra",
     "tipo": "COLETIVA",
     "categoria": "MISTO",
@@ -99,7 +99,7 @@ export const MODALIDADES: Modalidade[] = [
     "total_vagas_ou_inscritos": 8
   },
   {
-    "id": "4",
+    "id": "00000000-0000-0000-0002-000000000004",
     "nome": "Basquete 3x3",
     "tipo": "COLETIVA",
     "categoria": "MISTO",
@@ -108,7 +108,7 @@ export const MODALIDADES: Modalidade[] = [
     "total_vagas_ou_inscritos": 9
   },
   {
-    "id": "5",
+    "id": "00000000-0000-0000-0002-000000000005",
     "nome": "Handebol",
     "tipo": "COLETIVA",
     "categoria": "MISTO",
@@ -117,7 +117,7 @@ export const MODALIDADES: Modalidade[] = [
     "total_vagas_ou_inscritos": 4
   },
   {
-    "id": "6",
+    "id": "00000000-0000-0000-0002-000000000006",
     "nome": "Queimada",
     "tipo": "COLETIVA",
     "categoria": "MISTO",
@@ -126,7 +126,7 @@ export const MODALIDADES: Modalidade[] = [
     "total_vagas_ou_inscritos": 6
   },
   {
-    "id": "7",
+    "id": "00000000-0000-0000-0002-000000000007",
     "nome": "Futevôlei",
     "tipo": "COLETIVA",
     "categoria": "MISTO",
@@ -135,7 +135,7 @@ export const MODALIDADES: Modalidade[] = [
     "total_vagas_ou_inscritos": 7
   },
   {
-    "id": "8",
+    "id": "00000000-0000-0000-0002-000000000008",
     "nome": "Tênis de Mesa",
     "tipo": "INDIVIDUAL",
     "categoria": "MISTO",
@@ -144,7 +144,7 @@ export const MODALIDADES: Modalidade[] = [
     "total_vagas_ou_inscritos": 23
   },
   {
-    "id": "9",
+    "id": "00000000-0000-0000-0002-000000000009",
     "nome": "Xadrez",
     "tipo": "INDIVIDUAL",
     "categoria": "MISTO",
@@ -153,7 +153,7 @@ export const MODALIDADES: Modalidade[] = [
     "total_vagas_ou_inscritos": 23
   },
   {
-    "id": "10",
+    "id": "00000000-0000-0000-0002-000000000010",
     "nome": "Damas",
     "tipo": "INDIVIDUAL",
     "categoria": "MISTO",
@@ -162,7 +162,7 @@ export const MODALIDADES: Modalidade[] = [
     "total_vagas_ou_inscritos": 8
   },
   {
-    "id": "11",
+    "id": "00000000-0000-0000-0002-000000000011",
     "nome": "Natação",
     "tipo": "INDIVIDUAL",
     "categoria": "MISTO",
@@ -171,7 +171,7 @@ export const MODALIDADES: Modalidade[] = [
     "total_vagas_ou_inscritos": 33
   },
   {
-    "id": "12",
+    "id": "00000000-0000-0000-0002-000000000012",
     "nome": "Caminhada e Corrida",
     "tipo": "INDIVIDUAL",
     "categoria": "MISTO",
@@ -183,143 +183,143 @@ export const MODALIDADES: Modalidade[] = [
 
 export const PONTUACAO_INICIAL: PontuacaoGeralCampus[] = [
   {
-    "campus_id": "1",
+    "campus_id": "00000000-0000-0000-0001-000000000001",
     "pontos_acumulados": 0,
     "ouros": 0,
     "pratas": 0,
     "bronzes": 0,
     "campus": {
-      "id": "1",
+      "id": "00000000-0000-0000-0001-000000000001",
       "nome": "Campus Brasília",
       "sigla": "CBRA",
       "cor_primaria": "#288C28"
     }
   },
   {
-    "campus_id": "2",
+    "campus_id": "00000000-0000-0000-0001-000000000002",
     "pontos_acumulados": 0,
     "ouros": 0,
     "pratas": 0,
     "bronzes": 0,
     "campus": {
-      "id": "2",
+      "id": "00000000-0000-0000-0001-000000000002",
       "nome": "Campus Ceilândia",
       "sigla": "CCEI",
       "cor_primaria": "#1E2D3C"
     }
   },
   {
-    "campus_id": "3",
+    "campus_id": "00000000-0000-0000-0001-000000000003",
     "pontos_acumulados": 0,
     "ouros": 0,
     "pratas": 0,
     "bronzes": 0,
     "campus": {
-      "id": "3",
+      "id": "00000000-0000-0000-0001-000000000003",
       "nome": "Campus Estrutural",
       "sigla": "CEST",
       "cor_primaria": "#E1D287"
     }
   },
   {
-    "campus_id": "4",
+    "campus_id": "00000000-0000-0000-0001-000000000004",
     "pontos_acumulados": 0,
     "ouros": 0,
     "pratas": 0,
     "bronzes": 0,
     "campus": {
-      "id": "4",
+      "id": "00000000-0000-0000-0001-000000000004",
       "nome": "Campus Gama",
       "sigla": "CGAM",
       "cor_primaria": "#C81414"
     }
   },
   {
-    "campus_id": "5",
+    "campus_id": "00000000-0000-0000-0001-000000000005",
     "pontos_acumulados": 0,
     "ouros": 0,
     "pratas": 0,
     "bronzes": 0,
     "campus": {
-      "id": "5",
+      "id": "00000000-0000-0000-0001-000000000005",
       "nome": "Campus Planaltina",
       "sigla": "CPLA",
       "cor_primaria": "#78A55A"
     }
   },
   {
-    "campus_id": "6",
+    "campus_id": "00000000-0000-0000-0001-000000000006",
     "pontos_acumulados": 0,
     "ouros": 0,
     "pratas": 0,
     "bronzes": 0,
     "campus": {
-      "id": "6",
+      "id": "00000000-0000-0000-0001-000000000006",
       "nome": "Campus Recanto das Emas",
       "sigla": "CREC",
       "cor_primaria": "#F57656"
     }
   },
   {
-    "campus_id": "7",
+    "campus_id": "00000000-0000-0000-0001-000000000007",
     "pontos_acumulados": 0,
     "ouros": 0,
     "pratas": 0,
     "bronzes": 0,
     "campus": {
-      "id": "7",
+      "id": "00000000-0000-0000-0001-000000000007",
       "nome": "Campus Riacho Fundo",
       "sigla": "CRIA",
       "cor_primaria": "#349738"
     }
   },
   {
-    "campus_id": "8",
+    "campus_id": "00000000-0000-0000-0001-000000000008",
     "pontos_acumulados": 0,
     "ouros": 0,
     "pratas": 0,
     "bronzes": 0,
     "campus": {
-      "id": "8",
+      "id": "00000000-0000-0000-0001-000000000008",
       "nome": "Campus Samambaia",
       "sigla": "CSAM",
       "cor_primaria": "#1E2D3C"
     }
   },
   {
-    "campus_id": "9",
+    "campus_id": "00000000-0000-0000-0001-000000000009",
     "pontos_acumulados": 0,
     "ouros": 0,
     "pratas": 0,
     "bronzes": 0,
     "campus": {
-      "id": "9",
+      "id": "00000000-0000-0000-0001-000000000009",
       "nome": "Campus São Sebastião",
       "sigla": "CSSE",
       "cor_primaria": "#288C28"
     }
   },
   {
-    "campus_id": "10",
+    "campus_id": "00000000-0000-0000-0001-000000000010",
     "pontos_acumulados": 0,
     "ouros": 0,
     "pratas": 0,
     "bronzes": 0,
     "campus": {
-      "id": "10",
+      "id": "00000000-0000-0000-0001-000000000010",
       "nome": "Campus Taguatinga",
       "sigla": "CTAG",
       "cor_primaria": "#C81414"
     }
   },
   {
-    "campus_id": "11",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "pontos_acumulados": 0,
     "ouros": 0,
     "pratas": 0,
     "bronzes": 0,
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
@@ -329,22 +329,22 @@ export const PONTUACAO_INICIAL: PontuacaoGeralCampus[] = [
 
 export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
   {
-    "id": "com_1",
+    "id": "00000000-0000-0000-0007-000000000001",
     "nome": "ARTUR LOPES DIAS",
     "matricula": "3008960",
     "funcao": "Membro",
-    "lotacao_campus_id": "3",
-    "subcomissao_modalidade_id": "4",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000003",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000004",
     "subcomissao_nome": "Basquete",
     "contato": "3008960@ifb.edu.br",
     "lotacao": {
-      "id": "3",
+      "id": "00000000-0000-0000-0001-000000000003",
       "nome": "Campus Estrutural",
       "sigla": "CEST",
       "cor_primaria": "#E1D287"
     },
     "subcomissao": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -354,22 +354,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_2",
+    "id": "00000000-0000-0000-0007-000000000002",
     "nome": "THIAGO SILVA ROCHA",
     "matricula": "3277783",
     "funcao": "Membro",
-    "lotacao_campus_id": "3",
-    "subcomissao_modalidade_id": "4",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000003",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000004",
     "subcomissao_nome": "Basquete",
     "contato": "3277783@ifb.edu.br",
     "lotacao": {
-      "id": "3",
+      "id": "00000000-0000-0000-0001-000000000003",
       "nome": "Campus Estrutural",
       "sigla": "CEST",
       "cor_primaria": "#E1D287"
     },
     "subcomissao": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -379,22 +379,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_3",
+    "id": "00000000-0000-0000-0007-000000000003",
     "nome": "MONICA LUCIANA DA SILVA PEREIRA",
     "matricula": "1154917",
     "funcao": "Membro",
-    "lotacao_campus_id": "8",
-    "subcomissao_modalidade_id": "12",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000008",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000012",
     "subcomissao_nome": "Caminhada/Corrida",
     "contato": "1154917@ifb.edu.br",
     "lotacao": {
-      "id": "8",
+      "id": "00000000-0000-0000-0001-000000000008",
       "nome": "Campus Samambaia",
       "sigla": "CSAM",
       "cor_primaria": "#1E2D3C"
     },
     "subcomissao": {
-      "id": "12",
+      "id": "00000000-0000-0000-0002-000000000012",
       "nome": "Caminhada e Corrida",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -404,22 +404,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_4",
+    "id": "00000000-0000-0000-0007-000000000004",
     "nome": "DANIELE RAMOS SIMOES",
     "matricula": "1687806",
     "funcao": "Membro",
-    "lotacao_campus_id": "11",
-    "subcomissao_modalidade_id": "12",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000011",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000012",
     "subcomissao_nome": "Caminhada/Corrida",
     "contato": "1687806@ifb.edu.br",
     "lotacao": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "subcomissao": {
-      "id": "12",
+      "id": "00000000-0000-0000-0002-000000000012",
       "nome": "Caminhada e Corrida",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -429,22 +429,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_5",
+    "id": "00000000-0000-0000-0007-000000000005",
     "nome": "EVERGLAD ARIADNE DE SOUZA",
     "matricula": "2275761",
     "funcao": "Membro",
-    "lotacao_campus_id": "11",
-    "subcomissao_modalidade_id": "12",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000011",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000012",
     "subcomissao_nome": "Caminhada/Corrida",
     "contato": "2275761@ifb.edu.br",
     "lotacao": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "subcomissao": {
-      "id": "12",
+      "id": "00000000-0000-0000-0002-000000000012",
       "nome": "Caminhada e Corrida",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -454,22 +454,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_6",
+    "id": "00000000-0000-0000-0007-000000000006",
     "nome": "TATIANA FARIAS DE SOUSA",
     "matricula": "2221839",
     "funcao": "Membro",
-    "lotacao_campus_id": "11",
-    "subcomissao_modalidade_id": "12",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000011",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000012",
     "subcomissao_nome": "Caminhada/Corrida",
     "contato": "2221839@ifb.edu.br",
     "lotacao": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "subcomissao": {
-      "id": "12",
+      "id": "00000000-0000-0000-0002-000000000012",
       "nome": "Caminhada e Corrida",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -479,16 +479,16 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_7",
+    "id": "00000000-0000-0000-0007-000000000007",
     "nome": "JEFFERSON SAMPAIO DE MOURA",
     "matricula": "2786156",
     "funcao": "Membro",
-    "lotacao_campus_id": "9",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000009",
     "subcomissao_modalidade_id": null,
     "subcomissao_nome": "Coordenação",
     "contato": "2786156@ifb.edu.br",
     "lotacao": {
-      "id": "9",
+      "id": "00000000-0000-0000-0001-000000000009",
       "nome": "Campus São Sebastião",
       "sigla": "CSSE",
       "cor_primaria": "#288C28"
@@ -496,16 +496,16 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     "subcomissao": null
   },
   {
-    "id": "com_8",
+    "id": "00000000-0000-0000-0007-000000000008",
     "nome": "JOSE ANDERSON DE FREITAS SILVA",
     "matricula": "3969720",
     "funcao": "Presidente",
-    "lotacao_campus_id": "11",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000011",
     "subcomissao_modalidade_id": null,
     "subcomissao_nome": "Coordenação",
     "contato": "3969720@ifb.edu.br",
     "lotacao": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
@@ -513,16 +513,16 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     "subcomissao": null
   },
   {
-    "id": "com_9",
+    "id": "00000000-0000-0000-0007-000000000009",
     "nome": "ADILSON CESAR DE ARAUJO",
     "matricula": "1845396",
     "funcao": "Membro",
-    "lotacao_campus_id": "11",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000011",
     "subcomissao_modalidade_id": null,
     "subcomissao_nome": "Coordenação",
     "contato": "1845396@ifb.edu.br",
     "lotacao": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
@@ -530,22 +530,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     "subcomissao": null
   },
   {
-    "id": "com_10",
+    "id": "00000000-0000-0000-0007-000000000010",
     "nome": "ERIC JEFFERSON MATIAS LUZ",
     "matricula": "1334622",
     "funcao": "Membro",
-    "lotacao_campus_id": "1",
-    "subcomissao_modalidade_id": "1",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000001",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000001",
     "subcomissao_nome": "Futsal",
     "contato": "1334622@ifb.edu.br",
     "lotacao": {
-      "id": "1",
+      "id": "00000000-0000-0000-0001-000000000001",
       "nome": "Campus Brasília",
       "sigla": "CBRA",
       "cor_primaria": "#288C28"
     },
     "subcomissao": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -555,22 +555,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_11",
+    "id": "00000000-0000-0000-0007-000000000011",
     "nome": "FILIPE PINHEIRO BRANDAO",
     "matricula": "3524433",
     "funcao": "Membro",
-    "lotacao_campus_id": "1",
-    "subcomissao_modalidade_id": "1",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000001",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000001",
     "subcomissao_nome": "Futsal",
     "contato": "3524433@ifb.edu.br",
     "lotacao": {
-      "id": "1",
+      "id": "00000000-0000-0000-0001-000000000001",
       "nome": "Campus Brasília",
       "sigla": "CBRA",
       "cor_primaria": "#288C28"
     },
     "subcomissao": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -580,22 +580,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_12",
+    "id": "00000000-0000-0000-0007-000000000012",
     "nome": "HUGO SILVA NOLETO",
     "matricula": "3007619",
     "funcao": "Membro",
-    "lotacao_campus_id": "6",
-    "subcomissao_modalidade_id": "5",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000006",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000005",
     "subcomissao_nome": "Handebol",
     "contato": "3007619@ifb.edu.br",
     "lotacao": {
-      "id": "6",
+      "id": "00000000-0000-0000-0001-000000000006",
       "nome": "Campus Recanto das Emas",
       "sigla": "CREC",
       "cor_primaria": "#F57656"
     },
     "subcomissao": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -605,22 +605,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_13",
+    "id": "00000000-0000-0000-0007-000000000013",
     "nome": "CLEBER DOS SANTOS FERREIRA",
     "matricula": "3008104",
     "funcao": "Membro",
-    "lotacao_campus_id": "4",
-    "subcomissao_modalidade_id": "5",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000004",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000005",
     "subcomissao_nome": "Handebol",
     "contato": "3008104@ifb.edu.br",
     "lotacao": {
-      "id": "4",
+      "id": "00000000-0000-0000-0001-000000000004",
       "nome": "Campus Gama",
       "sigla": "CGAM",
       "cor_primaria": "#C81414"
     },
     "subcomissao": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -630,22 +630,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_14",
+    "id": "00000000-0000-0000-0007-000000000014",
     "nome": "GIANO LUIS COPETTI",
     "matricula": "1870044",
     "funcao": "Membro",
-    "lotacao_campus_id": "3",
-    "subcomissao_modalidade_id": "11",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000003",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000011",
     "subcomissao_nome": "Natação",
     "contato": "1870044@ifb.edu.br",
     "lotacao": {
-      "id": "3",
+      "id": "00000000-0000-0000-0001-000000000003",
       "nome": "Campus Estrutural",
       "sigla": "CEST",
       "cor_primaria": "#E1D287"
     },
     "subcomissao": {
-      "id": "11",
+      "id": "00000000-0000-0000-0002-000000000011",
       "nome": "Natação",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -655,22 +655,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_15",
+    "id": "00000000-0000-0000-0007-000000000015",
     "nome": "VANESSA FONSECA MACHADO",
     "matricula": "3054757",
     "funcao": "Membro",
-    "lotacao_campus_id": "3",
-    "subcomissao_modalidade_id": "6",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000003",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000006",
     "subcomissao_nome": "Queimada",
     "contato": "3054757@ifb.edu.br",
     "lotacao": {
-      "id": "3",
+      "id": "00000000-0000-0000-0001-000000000003",
       "nome": "Campus Estrutural",
       "sigla": "CEST",
       "cor_primaria": "#E1D287"
     },
     "subcomissao": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -680,22 +680,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_16",
+    "id": "00000000-0000-0000-0007-000000000016",
     "nome": "VANESSA DE DEUS DE MENDONCA",
     "matricula": "1957411",
     "funcao": "Membro",
-    "lotacao_campus_id": "10",
-    "subcomissao_modalidade_id": "6",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000010",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000006",
     "subcomissao_nome": "Queimada",
     "contato": "1957411@ifb.edu.br",
     "lotacao": {
-      "id": "10",
+      "id": "00000000-0000-0000-0001-000000000010",
       "nome": "Campus Taguatinga",
       "sigla": "CTAG",
       "cor_primaria": "#C81414"
     },
     "subcomissao": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -705,22 +705,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_17",
+    "id": "00000000-0000-0000-0007-000000000017",
     "nome": "LEONARDO PIMENTA DIAS",
     "matricula": "1758194",
     "funcao": "Membro",
-    "lotacao_campus_id": "8",
-    "subcomissao_modalidade_id": "8",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000008",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000008",
     "subcomissao_nome": "Tênis de Mesa / Xadrez / Damas",
     "contato": "1758194@ifb.edu.br",
     "lotacao": {
-      "id": "8",
+      "id": "00000000-0000-0000-0001-000000000008",
       "nome": "Campus Samambaia",
       "sigla": "CSAM",
       "cor_primaria": "#1E2D3C"
     },
     "subcomissao": {
-      "id": "8",
+      "id": "00000000-0000-0000-0002-000000000008",
       "nome": "Tênis de Mesa",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -730,22 +730,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_18",
+    "id": "00000000-0000-0000-0007-000000000018",
     "nome": "MILENNA MILHOMEM SENA",
     "matricula": "1596461",
     "funcao": "Membro",
-    "lotacao_campus_id": "8",
-    "subcomissao_modalidade_id": "8",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000008",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000008",
     "subcomissao_nome": "Tênis de Mesa / Xadrez / Damas",
     "contato": "1596461@ifb.edu.br",
     "lotacao": {
-      "id": "8",
+      "id": "00000000-0000-0000-0001-000000000008",
       "nome": "Campus Samambaia",
       "sigla": "CSAM",
       "cor_primaria": "#1E2D3C"
     },
     "subcomissao": {
-      "id": "8",
+      "id": "00000000-0000-0000-0002-000000000008",
       "nome": "Tênis de Mesa",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -755,22 +755,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_19",
+    "id": "00000000-0000-0000-0007-000000000019",
     "nome": "GEOVANI BERNARDES DIAS JUNIOR",
     "matricula": "3543173",
     "funcao": "Membro",
-    "lotacao_campus_id": "9",
-    "subcomissao_modalidade_id": "3",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000009",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000003",
     "subcomissao_nome": "Vôlei",
     "contato": "3543173@ifb.edu.br",
     "lotacao": {
-      "id": "9",
+      "id": "00000000-0000-0000-0001-000000000009",
       "nome": "Campus São Sebastião",
       "sigla": "CSSE",
       "cor_primaria": "#288C28"
     },
     "subcomissao": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -780,22 +780,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_20",
+    "id": "00000000-0000-0000-0007-000000000020",
     "nome": "VANESSA SOARES DOS SANTOS",
     "matricula": "1239527",
     "funcao": "Membro",
-    "lotacao_campus_id": "9",
-    "subcomissao_modalidade_id": "3",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000009",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000003",
     "subcomissao_nome": "Vôlei",
     "contato": "1239527@ifb.edu.br",
     "lotacao": {
-      "id": "9",
+      "id": "00000000-0000-0000-0001-000000000009",
       "nome": "Campus São Sebastião",
       "sigla": "CSSE",
       "cor_primaria": "#288C28"
     },
     "subcomissao": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -805,22 +805,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_21",
+    "id": "00000000-0000-0000-0007-000000000021",
     "nome": "GILCEMAR DA SILVA BORGES JUNIOR",
     "matricula": "2318777",
     "funcao": "Membro",
-    "lotacao_campus_id": "2",
-    "subcomissao_modalidade_id": "2",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000002",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000002",
     "subcomissao_nome": "Vôlei de Areia e Futevôlei",
     "contato": "2318777@ifb.edu.br",
     "lotacao": {
-      "id": "2",
+      "id": "00000000-0000-0000-0001-000000000002",
       "nome": "Campus Ceilândia",
       "sigla": "CCEI",
       "cor_primaria": "#1E2D3C"
     },
     "subcomissao": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -830,22 +830,22 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
     }
   },
   {
-    "id": "com_22",
+    "id": "00000000-0000-0000-0007-000000000022",
     "nome": "MICHEL SANTOS DA SILVA",
     "matricula": "1262668",
     "funcao": "Membro",
-    "lotacao_campus_id": "2",
-    "subcomissao_modalidade_id": "2",
+    "lotacao_campus_id": "00000000-0000-0000-0001-000000000002",
+    "subcomissao_modalidade_id": "00000000-0000-0000-0002-000000000002",
     "subcomissao_nome": "Vôlei de Areia e Futevôlei",
     "contato": "1262668@ifb.edu.br",
     "lotacao": {
-      "id": "2",
+      "id": "00000000-0000-0000-0001-000000000002",
       "nome": "Campus Ceilândia",
       "sigla": "CCEI",
       "cor_primaria": "#1E2D3C"
     },
     "subcomissao": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -858,21 +858,21 @@ export const COMISSAO_EXEMPLO: ComissaoOrganizadora[] = [
 
 export const PARTICIPANTES_DAMAS: ParticipanteIndividual[] = [
   {
-    "id": "part_damas_1",
-    "modalidade_id": "10",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0004-000000000001",
+    "modalidade_id": "00000000-0000-0000-0002-000000000010",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Marcio Giacomin Pinho",
     "matricula": "3000001",
     "categoria": "MISTO",
     "colocacao_final": null,
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "10",
+      "id": "00000000-0000-0000-0002-000000000010",
       "nome": "Damas",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -882,21 +882,21 @@ export const PARTICIPANTES_DAMAS: ParticipanteIndividual[] = [
     }
   },
   {
-    "id": "part_damas_2",
-    "modalidade_id": "10",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0004-000000000002",
+    "modalidade_id": "00000000-0000-0000-0002-000000000010",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Artur Lopes Dias",
     "matricula": "3000002",
     "categoria": "MISTO",
     "colocacao_final": null,
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "10",
+      "id": "00000000-0000-0000-0002-000000000010",
       "nome": "Damas",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -906,21 +906,21 @@ export const PARTICIPANTES_DAMAS: ParticipanteIndividual[] = [
     }
   },
   {
-    "id": "part_damas_3",
-    "modalidade_id": "10",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0004-000000000003",
+    "modalidade_id": "00000000-0000-0000-0002-000000000010",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "André Gondim do Rego",
     "matricula": "3000003",
     "categoria": "MISTO",
     "colocacao_final": null,
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "10",
+      "id": "00000000-0000-0000-0002-000000000010",
       "nome": "Damas",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -930,21 +930,21 @@ export const PARTICIPANTES_DAMAS: ParticipanteIndividual[] = [
     }
   },
   {
-    "id": "part_damas_4",
-    "modalidade_id": "10",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0004-000000000004",
+    "modalidade_id": "00000000-0000-0000-0002-000000000010",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Joádson Rodrigues da Silva Freitas",
     "matricula": "3000004",
     "categoria": "MISTO",
     "colocacao_final": null,
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "10",
+      "id": "00000000-0000-0000-0002-000000000010",
       "nome": "Damas",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -954,21 +954,21 @@ export const PARTICIPANTES_DAMAS: ParticipanteIndividual[] = [
     }
   },
   {
-    "id": "part_damas_5",
-    "modalidade_id": "10",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0004-000000000005",
+    "modalidade_id": "00000000-0000-0000-0002-000000000010",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Wellington Marciel",
     "matricula": "3000005",
     "categoria": "MISTO",
     "colocacao_final": null,
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "10",
+      "id": "00000000-0000-0000-0002-000000000010",
       "nome": "Damas",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -978,21 +978,21 @@ export const PARTICIPANTES_DAMAS: ParticipanteIndividual[] = [
     }
   },
   {
-    "id": "part_damas_6",
-    "modalidade_id": "10",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0004-000000000006",
+    "modalidade_id": "00000000-0000-0000-0002-000000000010",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Denis Marques Ferreira",
     "matricula": "3000006",
     "categoria": "MISTO",
     "colocacao_final": null,
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "10",
+      "id": "00000000-0000-0000-0002-000000000010",
       "nome": "Damas",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -1002,21 +1002,21 @@ export const PARTICIPANTES_DAMAS: ParticipanteIndividual[] = [
     }
   },
   {
-    "id": "part_damas_7",
-    "modalidade_id": "10",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0004-000000000007",
+    "modalidade_id": "00000000-0000-0000-0002-000000000010",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Daniel Evangelista Monteiro",
     "matricula": "3000007",
     "categoria": "MISTO",
     "colocacao_final": null,
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "10",
+      "id": "00000000-0000-0000-0002-000000000010",
       "nome": "Damas",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -1026,21 +1026,21 @@ export const PARTICIPANTES_DAMAS: ParticipanteIndividual[] = [
     }
   },
   {
-    "id": "part_damas_8",
-    "modalidade_id": "10",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0004-000000000008",
+    "modalidade_id": "00000000-0000-0000-0002-000000000010",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Samuel Gabriel Assis",
     "matricula": "3000008",
     "categoria": "MISTO",
     "colocacao_final": null,
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "10",
+      "id": "00000000-0000-0000-0002-000000000010",
       "nome": "Damas",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -1053,9 +1053,9 @@ export const PARTICIPANTES_DAMAS: ParticipanteIndividual[] = [
 
 export const EQUIPES_EXEMPLO: Equipe[] = [
   {
-    "id": "eq_1",
-    "modalidade_id": "1",
-    "campus_id": "5",
+    "id": "00000000-0000-0000-0003-000000000001",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
+    "campus_id": "00000000-0000-0000-0001-000000000005",
     "nome": "Galáticos Cpla",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Galáticos Cpla",
@@ -1072,13 +1072,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo A (A1)",
     "campus": {
-      "id": "5",
+      "id": "00000000-0000-0000-0001-000000000005",
       "nome": "Campus Planaltina",
       "sigla": "CPLA",
       "cor_primaria": "#78A55A"
     },
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1088,9 +1088,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_2",
-    "modalidade_id": "1",
-    "campus_id": "2",
+    "id": "00000000-0000-0000-0003-000000000002",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
+    "campus_id": "00000000-0000-0000-0001-000000000002",
     "nome": "Gato Preto - CCEI",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Gato Preto - CCEI",
@@ -1107,13 +1107,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo A (A2)",
     "campus": {
-      "id": "2",
+      "id": "00000000-0000-0000-0001-000000000002",
       "nome": "Campus Ceilândia",
       "sigla": "CCEI",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1123,9 +1123,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_3",
-    "modalidade_id": "1",
-    "campus_id": "4",
+    "id": "00000000-0000-0000-0003-000000000003",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
+    "campus_id": "00000000-0000-0000-0001-000000000004",
     "nome": "Gama",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Gama",
@@ -1142,13 +1142,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo A (A3)",
     "campus": {
-      "id": "4",
+      "id": "00000000-0000-0000-0001-000000000004",
       "nome": "Campus Gama",
       "sigla": "CGAM",
       "cor_primaria": "#C81414"
     },
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1158,9 +1158,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_4",
-    "modalidade_id": "1",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000004",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Os Saruês",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Os Saruês",
@@ -1177,13 +1177,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo B (B1)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1193,9 +1193,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_5",
-    "modalidade_id": "1",
-    "campus_id": "6",
+    "id": "00000000-0000-0000-0003-000000000005",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
+    "campus_id": "00000000-0000-0000-0001-000000000006",
     "nome": "Canela de Ema",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Canela de Ema",
@@ -1212,13 +1212,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo B (B2)",
     "campus": {
-      "id": "6",
+      "id": "00000000-0000-0000-0001-000000000006",
       "nome": "Campus Recanto das Emas",
       "sigla": "CREC",
       "cor_primaria": "#F57656"
     },
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1228,9 +1228,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_6",
-    "modalidade_id": "1",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000006",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Cachorrões",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Cachorrões",
@@ -1247,13 +1247,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo B (B3)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1263,9 +1263,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_7",
-    "modalidade_id": "1",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000007",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Next",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Next",
@@ -1282,13 +1282,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo C (C1)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1298,9 +1298,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_8",
-    "modalidade_id": "1",
-    "campus_id": "7",
+    "id": "00000000-0000-0000-0003-000000000008",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
+    "campus_id": "00000000-0000-0000-0001-000000000007",
     "nome": "Deep River",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Deep River",
@@ -1317,13 +1317,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo C (C2)",
     "campus": {
-      "id": "7",
+      "id": "00000000-0000-0000-0001-000000000007",
       "nome": "Campus Riacho Fundo",
       "sigla": "CRIA",
       "cor_primaria": "#349738"
     },
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1333,9 +1333,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_9",
-    "modalidade_id": "1",
-    "campus_id": "3",
+    "id": "00000000-0000-0000-0003-000000000009",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
+    "campus_id": "00000000-0000-0000-0001-000000000003",
     "nome": "Campus Estrutural",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Campus Estrutural",
@@ -1352,13 +1352,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo C (C3)",
     "campus": {
-      "id": "3",
+      "id": "00000000-0000-0000-0001-000000000003",
       "nome": "Campus Estrutural",
       "sigla": "CEST",
       "cor_primaria": "#E1D287"
     },
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1368,9 +1368,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_10",
-    "modalidade_id": "1",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000010",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Gato Preto (Fem)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Gato Preto (Fem)",
@@ -1387,13 +1387,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "FEMININO",
     "preferencia_periodo": "Triangular (F1)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1403,9 +1403,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_11",
-    "modalidade_id": "1",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000011",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Donas da Bola (Fem)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Donas da Bola (Fem)",
@@ -1422,13 +1422,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "FEMININO",
     "preferencia_periodo": "Triangular (F2)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1438,9 +1438,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_12",
-    "modalidade_id": "1",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000012",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Sebastiana F.C.",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Sebastiana F.C.",
@@ -1457,13 +1457,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "FEMININO",
     "preferencia_periodo": "Triangular (F3)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1473,9 +1473,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_13",
-    "modalidade_id": "3",
-    "campus_id": "10",
+    "id": "00000000-0000-0000-0003-000000000013",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
+    "campus_id": "00000000-0000-0000-0001-000000000010",
     "nome": "Voleibol_Ctag",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Voleibol_Ctag",
@@ -1492,13 +1492,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Grupo A (A1)",
     "campus": {
-      "id": "10",
+      "id": "00000000-0000-0000-0001-000000000010",
       "nome": "Campus Taguatinga",
       "sigla": "CTAG",
       "cor_primaria": "#C81414"
     },
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1508,9 +1508,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_14",
-    "modalidade_id": "3",
-    "campus_id": "7",
+    "id": "00000000-0000-0000-0003-000000000014",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
+    "campus_id": "00000000-0000-0000-0001-000000000007",
     "nome": "Deep River (Quadra)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Deep River (Quadra)",
@@ -1527,13 +1527,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Grupo A (A2)",
     "campus": {
-      "id": "7",
+      "id": "00000000-0000-0000-0001-000000000007",
       "nome": "Campus Riacho Fundo",
       "sigla": "CRIA",
       "cor_primaria": "#349738"
     },
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1543,9 +1543,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_15",
-    "modalidade_id": "3",
-    "campus_id": "5",
+    "id": "00000000-0000-0000-0003-000000000015",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
+    "campus_id": "00000000-0000-0000-0001-000000000005",
     "nome": "CPLA (Quadra)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) CPLA (Quadra)",
@@ -1562,13 +1562,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Grupo A (A3)",
     "campus": {
-      "id": "5",
+      "id": "00000000-0000-0000-0001-000000000005",
       "nome": "Campus Planaltina",
       "sigla": "CPLA",
       "cor_primaria": "#78A55A"
     },
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1578,9 +1578,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_16",
-    "modalidade_id": "3",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000016",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Bora Time",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Bora Time",
@@ -1597,13 +1597,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Grupo A (A4)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1613,9 +1613,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_17",
-    "modalidade_id": "3",
-    "campus_id": "6",
+    "id": "00000000-0000-0000-0003-000000000017",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
+    "campus_id": "00000000-0000-0000-0001-000000000006",
     "nome": "Canela de Ema (Quadra)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Canela de Ema (Quadra)",
@@ -1632,13 +1632,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Grupo B (B1)",
     "campus": {
-      "id": "6",
+      "id": "00000000-0000-0000-0001-000000000006",
       "nome": "Campus Recanto das Emas",
       "sigla": "CREC",
       "cor_primaria": "#F57656"
     },
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1648,9 +1648,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_18",
-    "modalidade_id": "3",
-    "campus_id": "2",
+    "id": "00000000-0000-0000-0003-000000000018",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
+    "campus_id": "00000000-0000-0000-0001-000000000002",
     "nome": "Gato Preto CCEI (Quadra)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Gato Preto CCEI (Quadra)",
@@ -1667,13 +1667,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Grupo B (B2)",
     "campus": {
-      "id": "2",
+      "id": "00000000-0000-0000-0001-000000000002",
       "nome": "Campus Ceilândia",
       "sigla": "CCEI",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1683,9 +1683,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_19",
-    "modalidade_id": "3",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000019",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Titãs do Vôlei",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Titãs do Vôlei",
@@ -1702,13 +1702,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Grupo B (B3)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1718,9 +1718,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_20",
-    "modalidade_id": "3",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000020",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Sem Didática Para Jogar (Quadra)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Sem Didática Para Jogar (Quadra)",
@@ -1737,13 +1737,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Grupo B (B4)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1753,9 +1753,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_21",
-    "modalidade_id": "4",
-    "campus_id": "3",
+    "id": "00000000-0000-0000-0003-000000000021",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
+    "campus_id": "00000000-0000-0000-0001-000000000003",
     "nome": "Estrutural (Basquete Masc)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Estrutural (Basquete Masc)",
@@ -1772,13 +1772,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo A (M-A1)",
     "campus": {
-      "id": "3",
+      "id": "00000000-0000-0000-0001-000000000003",
       "nome": "Campus Estrutural",
       "sigla": "CEST",
       "cor_primaria": "#E1D287"
     },
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1788,9 +1788,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_22",
-    "modalidade_id": "4",
-    "campus_id": "6",
+    "id": "00000000-0000-0000-0003-000000000022",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
+    "campus_id": "00000000-0000-0000-0001-000000000006",
     "nome": "Canela de Ema (Basquete Masc)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Canela de Ema (Basquete Masc)",
@@ -1807,13 +1807,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo A (M-A2)",
     "campus": {
-      "id": "6",
+      "id": "00000000-0000-0000-0001-000000000006",
       "nome": "Campus Recanto das Emas",
       "sigla": "CREC",
       "cor_primaria": "#F57656"
     },
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1823,9 +1823,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_23",
-    "modalidade_id": "4",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000023",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Quitados e Queimados",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Quitados e Queimados",
@@ -1842,13 +1842,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo A (M-A3)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1858,9 +1858,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_24",
-    "modalidade_id": "4",
-    "campus_id": "10",
+    "id": "00000000-0000-0000-0003-000000000024",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
+    "campus_id": "00000000-0000-0000-0001-000000000010",
     "nome": "CTAG Hoopers",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) CTAG Hoopers",
@@ -1877,13 +1877,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo B (M-B1)",
     "campus": {
-      "id": "10",
+      "id": "00000000-0000-0000-0001-000000000010",
       "nome": "Campus Taguatinga",
       "sigla": "CTAG",
       "cor_primaria": "#C81414"
     },
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1893,9 +1893,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_25",
-    "modalidade_id": "4",
-    "campus_id": "2",
+    "id": "00000000-0000-0000-0003-000000000025",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
+    "campus_id": "00000000-0000-0000-0001-000000000002",
     "nome": "Gato Preto CCEI (Basquete Masc)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Gato Preto CCEI (Basquete Masc)",
@@ -1912,13 +1912,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo B (M-B2)",
     "campus": {
-      "id": "2",
+      "id": "00000000-0000-0000-0001-000000000002",
       "nome": "Campus Ceilândia",
       "sigla": "CCEI",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1928,9 +1928,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_26",
-    "modalidade_id": "4",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000026",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Sem Didática Para Jogar (Basquete Masc)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Sem Didática Para Jogar (Basquete Masc)",
@@ -1947,13 +1947,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo B (M-B3)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1963,9 +1963,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_27",
-    "modalidade_id": "4",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000027",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Jordan'as Tagua Clube",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Jordan'as Tagua Clube",
@@ -1982,13 +1982,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Triangular (X1)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -1998,9 +1998,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_28",
-    "modalidade_id": "4",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000028",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Gato Preto Misto 2",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Gato Preto Misto 2",
@@ -2017,13 +2017,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Triangular (X2)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2033,9 +2033,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_29",
-    "modalidade_id": "4",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000029",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Gato Preto Misto 1",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Gato Preto Misto 1",
@@ -2052,13 +2052,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Triangular (X3)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2068,9 +2068,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_30",
-    "modalidade_id": "2",
-    "campus_id": "3",
+    "id": "00000000-0000-0000-0003-000000000030",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
+    "campus_id": "00000000-0000-0000-0001-000000000003",
     "nome": "CEST (Vôlei Praia)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) CEST (Vôlei Praia)",
@@ -2087,13 +2087,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo A (M-A1)",
     "campus": {
-      "id": "3",
+      "id": "00000000-0000-0000-0001-000000000003",
       "nome": "Campus Estrutural",
       "sigla": "CEST",
       "cor_primaria": "#E1D287"
     },
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2103,9 +2103,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_31",
-    "modalidade_id": "2",
-    "campus_id": "3",
+    "id": "00000000-0000-0000-0003-000000000031",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
+    "campus_id": "00000000-0000-0000-0001-000000000003",
     "nome": "Estrutural (Vôlei Praia)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Estrutural (Vôlei Praia)",
@@ -2122,13 +2122,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo A (M-A2)",
     "campus": {
-      "id": "3",
+      "id": "00000000-0000-0000-0001-000000000003",
       "nome": "Campus Estrutural",
       "sigla": "CEST",
       "cor_primaria": "#E1D287"
     },
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2138,9 +2138,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_32",
-    "modalidade_id": "2",
-    "campus_id": "2",
+    "id": "00000000-0000-0000-0003-000000000032",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
+    "campus_id": "00000000-0000-0000-0001-000000000002",
     "nome": "Bonde da Ceilândia",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Bonde da Ceilândia",
@@ -2157,13 +2157,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo A (M-A3)",
     "campus": {
-      "id": "2",
+      "id": "00000000-0000-0000-0001-000000000002",
       "nome": "Campus Ceilândia",
       "sigla": "CCEI",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2173,9 +2173,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_33",
-    "modalidade_id": "2",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000033",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Os Saruês (Vôlei Praia)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Os Saruês (Vôlei Praia)",
@@ -2192,13 +2192,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo B (M-B1)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2208,9 +2208,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_34",
-    "modalidade_id": "2",
-    "campus_id": "2",
+    "id": "00000000-0000-0000-0003-000000000034",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
+    "campus_id": "00000000-0000-0000-0001-000000000002",
     "nome": "IFB Ceilândia - Equipe 02",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) IFB Ceilândia - Equipe 02",
@@ -2227,13 +2227,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo B (M-B2)",
     "campus": {
-      "id": "2",
+      "id": "00000000-0000-0000-0001-000000000002",
       "nome": "Campus Ceilândia",
       "sigla": "CCEI",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2243,9 +2243,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_35",
-    "modalidade_id": "2",
-    "campus_id": "6",
+    "id": "00000000-0000-0000-0003-000000000035",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
+    "campus_id": "00000000-0000-0000-0001-000000000006",
     "nome": "Canela de Ema (Vôlei Praia)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Canela de Ema (Vôlei Praia)",
@@ -2262,13 +2262,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo B (M-B3)",
     "campus": {
-      "id": "6",
+      "id": "00000000-0000-0000-0001-000000000006",
       "nome": "Campus Recanto das Emas",
       "sigla": "CREC",
       "cor_primaria": "#F57656"
     },
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2278,9 +2278,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_36",
-    "modalidade_id": "2",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000036",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Sem Didática para Jogar (Praia)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Sem Didática para Jogar (Praia)",
@@ -2297,13 +2297,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo C (M-C1)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2313,9 +2313,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_37",
-    "modalidade_id": "2",
-    "campus_id": "2",
+    "id": "00000000-0000-0000-0003-000000000037",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
+    "campus_id": "00000000-0000-0000-0001-000000000002",
     "nome": "Gato Preto - CCEI (Vôlei Praia)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Gato Preto - CCEI (Vôlei Praia)",
@@ -2332,13 +2332,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo C (M-C2)",
     "campus": {
-      "id": "2",
+      "id": "00000000-0000-0000-0001-000000000002",
       "nome": "Campus Ceilândia",
       "sigla": "CCEI",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2348,9 +2348,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_38",
-    "modalidade_id": "2",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000038",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Sand",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Sand",
@@ -2367,13 +2367,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Grupo C (M-C3)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2383,9 +2383,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_39",
-    "modalidade_id": "7",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000039",
+    "modalidade_id": "00000000-0000-0000-0002-000000000007",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "MT Brothers",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) MT Brothers",
@@ -2402,13 +2402,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Pontos Corridos (M1)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "7",
+      "id": "00000000-0000-0000-0002-000000000007",
       "nome": "Futevôlei",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2418,9 +2418,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_40",
-    "modalidade_id": "7",
-    "campus_id": "6",
+    "id": "00000000-0000-0000-0003-000000000040",
+    "modalidade_id": "00000000-0000-0000-0002-000000000007",
+    "campus_id": "00000000-0000-0000-0001-000000000006",
     "nome": "Canela de Ema (Futevôlei)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Canela de Ema (Futevôlei)",
@@ -2437,13 +2437,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Pontos Corridos (M2)",
     "campus": {
-      "id": "6",
+      "id": "00000000-0000-0000-0001-000000000006",
       "nome": "Campus Recanto das Emas",
       "sigla": "CREC",
       "cor_primaria": "#F57656"
     },
     "modalidade": {
-      "id": "7",
+      "id": "00000000-0000-0000-0002-000000000007",
       "nome": "Futevôlei",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2453,9 +2453,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_41",
-    "modalidade_id": "7",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000041",
+    "modalidade_id": "00000000-0000-0000-0002-000000000007",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Gato Preto (Futevôlei)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Gato Preto (Futevôlei)",
@@ -2472,13 +2472,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Pontos Corridos (M3)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "7",
+      "id": "00000000-0000-0000-0002-000000000007",
       "nome": "Futevôlei",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2488,9 +2488,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_42",
-    "modalidade_id": "7",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000042",
+    "modalidade_id": "00000000-0000-0000-0002-000000000007",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Sand Stars",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Sand Stars",
@@ -2507,13 +2507,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Pontos Corridos (M4)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "7",
+      "id": "00000000-0000-0000-0002-000000000007",
       "nome": "Futevôlei",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2523,9 +2523,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_43",
-    "modalidade_id": "7",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000043",
+    "modalidade_id": "00000000-0000-0000-0002-000000000007",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Os Saruês (Futevôlei)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Os Saruês (Futevôlei)",
@@ -2542,13 +2542,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MASCULINO",
     "preferencia_periodo": "Pontos Corridos (M5)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "7",
+      "id": "00000000-0000-0000-0002-000000000007",
       "nome": "Futevôlei",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2558,9 +2558,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_44",
-    "modalidade_id": "7",
-    "campus_id": "10",
+    "id": "00000000-0000-0000-0003-000000000044",
+    "modalidade_id": "00000000-0000-0000-0002-000000000007",
+    "campus_id": "00000000-0000-0000-0001-000000000010",
     "nome": "Soberanas do Taguá Clube",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Soberanas do Taguá Clube",
@@ -2577,13 +2577,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Confronto Direto (X1)",
     "campus": {
-      "id": "10",
+      "id": "00000000-0000-0000-0001-000000000010",
       "nome": "Campus Taguatinga",
       "sigla": "CTAG",
       "cor_primaria": "#C81414"
     },
     "modalidade": {
-      "id": "7",
+      "id": "00000000-0000-0000-0002-000000000007",
       "nome": "Futevôlei",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2593,9 +2593,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_45",
-    "modalidade_id": "7",
-    "campus_id": "7",
+    "id": "00000000-0000-0000-0003-000000000045",
+    "modalidade_id": "00000000-0000-0000-0002-000000000007",
+    "campus_id": "00000000-0000-0000-0001-000000000007",
     "nome": "Deep River (Futevôlei)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Deep River (Futevôlei)",
@@ -2612,13 +2612,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Confronto Direto (X2)",
     "campus": {
-      "id": "7",
+      "id": "00000000-0000-0000-0001-000000000007",
       "nome": "Campus Riacho Fundo",
       "sigla": "CRIA",
       "cor_primaria": "#349738"
     },
     "modalidade": {
-      "id": "7",
+      "id": "00000000-0000-0000-0002-000000000007",
       "nome": "Futevôlei",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2628,9 +2628,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_46",
-    "modalidade_id": "6",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000046",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Elite",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Elite",
@@ -2647,13 +2647,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Chave Única (X1)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2663,9 +2663,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_47",
-    "modalidade_id": "6",
-    "campus_id": "2",
+    "id": "00000000-0000-0000-0003-000000000047",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
+    "campus_id": "00000000-0000-0000-0001-000000000002",
     "nome": "Gato Preto - CCEI (Queimada)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Gato Preto - CCEI (Queimada)",
@@ -2682,13 +2682,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Chave Única (X2)",
     "campus": {
-      "id": "2",
+      "id": "00000000-0000-0000-0001-000000000002",
       "nome": "Campus Ceilândia",
       "sigla": "CCEI",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2698,9 +2698,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_48",
-    "modalidade_id": "6",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000048",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Endorfinadas IFB",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Endorfinadas IFB",
@@ -2717,13 +2717,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Chave Única (X3)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2733,9 +2733,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_49",
-    "modalidade_id": "6",
-    "campus_id": "7",
+    "id": "00000000-0000-0000-0003-000000000049",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
+    "campus_id": "00000000-0000-0000-0001-000000000007",
     "nome": "Deep River (Queimada)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Deep River (Queimada)",
@@ -2752,13 +2752,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Chave Única (X4)",
     "campus": {
-      "id": "7",
+      "id": "00000000-0000-0000-0001-000000000007",
       "nome": "Campus Riacho Fundo",
       "sigla": "CRIA",
       "cor_primaria": "#349738"
     },
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2768,9 +2768,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_50",
-    "modalidade_id": "6",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000050",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Sem Didática Para Jogar (Queimada)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Sem Didática Para Jogar (Queimada)",
@@ -2787,13 +2787,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Chave Única (X5)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2803,9 +2803,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_51",
-    "modalidade_id": "6",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000051",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Donas da Bola (Queimada)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Donas da Bola (Queimada)",
@@ -2822,13 +2822,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Chave Única (X6)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2838,9 +2838,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_52",
-    "modalidade_id": "5",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000052",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Fúria Ctga",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Fúria Ctga",
@@ -2857,13 +2857,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Chave Única (X1)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2873,9 +2873,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_53",
-    "modalidade_id": "5",
-    "campus_id": "7",
+    "id": "00000000-0000-0000-0003-000000000053",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
+    "campus_id": "00000000-0000-0000-0001-000000000007",
     "nome": "Deep River (Handebol)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Deep River (Handebol)",
@@ -2892,13 +2892,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Chave Única (X2)",
     "campus": {
-      "id": "7",
+      "id": "00000000-0000-0000-0001-000000000007",
       "nome": "Campus Riacho Fundo",
       "sigla": "CRIA",
       "cor_primaria": "#349738"
     },
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2908,9 +2908,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_54",
-    "modalidade_id": "5",
-    "campus_id": "2",
+    "id": "00000000-0000-0000-0003-000000000054",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
+    "campus_id": "00000000-0000-0000-0001-000000000002",
     "nome": "Gato Preto CCEI (Handebol)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Gato Preto CCEI (Handebol)",
@@ -2927,13 +2927,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Chave Única (X3)",
     "campus": {
-      "id": "2",
+      "id": "00000000-0000-0000-0001-000000000002",
       "nome": "Campus Ceilândia",
       "sigla": "CCEI",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2943,9 +2943,9 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     }
   },
   {
-    "id": "eq_55",
-    "modalidade_id": "5",
-    "campus_id": "11",
+    "id": "00000000-0000-0000-0003-000000000055",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
+    "campus_id": "00000000-0000-0000-0001-000000000011",
     "nome": "Sem Didática Para Jogar (Handebol)",
     "avatar_url": null,
     "capitao_nome": "Capitão(ã) Sem Didática Para Jogar (Handebol)",
@@ -2962,13 +2962,13 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
     "categoria": "MISTO",
     "preferencia_periodo": "Chave Única (X4)",
     "campus": {
-      "id": "11",
+      "id": "00000000-0000-0000-0001-000000000011",
       "nome": "Reitoria",
       "sigla": "REIT",
       "cor_primaria": "#1E2D3C"
     },
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -2981,8 +2981,8 @@ export const EQUIPES_EXEMPLO: Equipe[] = [
 
 export const PARTIDAS_EXEMPLO: Partida[] = [
   {
-    "id": "part_1",
-    "modalidade_id": "9",
+    "id": "00000000-0000-0000-0005-000000000001",
+    "modalidade_id": "00000000-0000-0000-0002-000000000009",
     "fase": "Etapa Primeiro Lance",
     "rodada": 1,
     "data_hora": "2026-11-03T08:30:00Z",
@@ -2990,7 +2990,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 08:30 | Campus Samambaia Xadrez Etapa \"Primeiro Lance\" (Matutino) Sistema Suíço em 5 Rodadas (10-15 min nocaute)",
     "modalidade": {
-      "id": "9",
+      "id": "00000000-0000-0000-0002-000000000009",
       "nome": "Xadrez",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -3001,8 +3001,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_2",
-    "modalidade_id": "10",
+    "id": "00000000-0000-0000-0005-000000000002",
+    "modalidade_id": "00000000-0000-0000-0002-000000000010",
     "fase": "Final",
     "rodada": 1,
     "data_hora": "2026-11-03T14:00:00Z",
@@ -3010,7 +3010,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 14:00 | Campus Samambaia Jogo de Damas Etapa \"Primeiro Lance\" (Vespertino) Fase de Grupos (Chaves de 4) + Semifinais, 3º Lugar e Final",
     "modalidade": {
-      "id": "10",
+      "id": "00000000-0000-0000-0002-000000000010",
       "nome": "Damas",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -3021,8 +3021,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_3",
-    "modalidade_id": "8",
+    "id": "00000000-0000-0000-0005-000000000003",
+    "modalidade_id": "00000000-0000-0000-0002-000000000008",
     "fase": "Etapa Primeiro Lance",
     "rodada": 1,
     "data_hora": "2026-11-04T09:00:00Z",
@@ -3030,7 +3030,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 09:00 | Campus Samambaia Tênis de Mesa Etapa \"Primeiro Lance\" (Dia Único) Torneio Feminino Exclusivo e Categoria Absoluto (Geral)",
     "modalidade": {
-      "id": "8",
+      "id": "00000000-0000-0000-0002-000000000008",
       "nome": "Tênis de Mesa",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -3041,8 +3041,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_4",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000004",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-05T08:30:00Z",
@@ -3050,7 +3050,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 08:30 | Campus Ceilândia Vôlei de Areia Masc. Rodada 1 - Grupo A Vôlei Areia M-A1 x Vôlei Areia M-A2",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3061,8 +3061,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_5",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000005",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-05T09:15:00Z",
@@ -3070,7 +3070,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 09:15 | Campus Ceilândia Vôlei de Areia Masc. Rodada 1 - Grupo B Vôlei Areia M-B1 x Vôlei Areia M-B2",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3081,8 +3081,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_6",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000006",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-05T10:00:00Z",
@@ -3090,7 +3090,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 10:00 | Campus Ceilândia Vôlei de Areia Masc. Rodada 1 - Grupo C Vôlei Areia M-C1 x Vôlei Areia M-C2",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3101,8 +3101,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_7",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000007",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-05T10:45:00Z",
@@ -3110,7 +3110,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 10:45 | Campus Ceilândia Vôlei de Areia Masc. Rodada 1 - Grupo D Vôlei Areia M-D1 x Vôlei Areia M-D2",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3121,8 +3121,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_8",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000008",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-05T14:00:00Z",
@@ -3130,7 +3130,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 14:00 | Campus Ceilândia Vôlei de Areia Fem. Semifinal 1 Vôlei Areia F1 x Vôlei Areia F2",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3141,8 +3141,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_9",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000009",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Triangular Final",
     "rodada": 1,
     "data_hora": "2026-11-05T14:45:00Z",
@@ -3150,7 +3150,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 14:45 | Campus Ceilândia Vôlei de Areia Misto Triangular - Rodada 1 Vôlei Areia X1 x Vôlei Areia X2",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3161,8 +3161,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_10",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000010",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-05T15:30:00Z",
@@ -3170,7 +3170,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 15:30 | Campus Ceilândia Vôlei de Areia Masc. Rodada 2 - Grupo A (Descanso de 5h p/ A2) Vôlei Areia M-A2 x Vôlei Areia M-A3",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3181,8 +3181,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_11",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000011",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-05T16:15:00Z",
@@ -3190,7 +3190,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 16:15 | Campus Ceilândia Vôlei de Areia Masc. Rodada 2 - Grupo B (Descanso de 5h p/ B2) Vôlei Areia M-B2 x Vôlei Areia M-B3",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3201,8 +3201,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_12",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000012",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-05T17:00:00Z",
@@ -3210,7 +3210,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 17:00 | Campus Ceilândia Vôlei de Areia Masc. Rodada 2 - Grupo C (Descanso de 5h p/ C2) Vôlei Areia M-C2 x Vôlei Areia M-C3",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3221,8 +3221,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_13",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000013",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-06T14:00:00Z",
@@ -3230,7 +3230,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Sexta-feira 14:00 | Campus Taguatinga Vôlei (Quadra Misto) Rodada 1 - Grupo A (Jogo 1) Vôlei Misto A1 x Vôlei Misto A2",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3241,8 +3241,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_14",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000014",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-06T15:00:00Z",
@@ -3250,7 +3250,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Sexta-feira 15:00 | Campus Taguatinga Vôlei (Quadra Misto) Rodada 1 - Grupo A (Jogo 2) Vôlei Misto A3 x Vôlei Misto A4",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3261,8 +3261,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_15",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000015",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-06T16:00:00Z",
@@ -3270,7 +3270,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Sexta-feira 16:00 | Campus Taguatinga Vôlei (Quadra Misto) Rodada 1 - Grupo B (Jogo 1) Vôlei Misto B1 x Vôlei Misto B2",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3281,8 +3281,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_16",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000016",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-06T17:00:00Z",
@@ -3290,7 +3290,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Sexta-feira 17:00 | Campus Taguatinga Vôlei (Quadra Misto) Rodada 1 - Grupo B (Jogo 2) Vôlei Misto B3 x Vôlei Misto B4",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3301,8 +3301,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_17",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000017",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-09T08:30:00Z",
@@ -3310,7 +3310,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Segunda-feira 08:30 | Campus São Sebastião Futsal Masculino Rodada 1 - Grupo A Futsal M-A1 x Futsal M-A2",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3320,17 +3320,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_17_1",
-        "partida_id": "part_17",
+        "id": "00000000-0000-0000-0006-000000000001",
+        "partida_id": "00000000-0000-0000-0005-000000000017",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "o Futsal Masculino Rodada 1 - Grupo A Futsal M-A1",
         "vencedor": false,
         "equipe": {
           "nome": "o Futsal Masculino Rodada 1 - Grupo A Futsal M-A1",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3339,17 +3339,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_17_2",
-        "partida_id": "part_17",
+        "id": "00000000-0000-0000-0006-000000000002",
+        "partida_id": "00000000-0000-0000-0005-000000000017",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Futsal M-A2",
         "vencedor": false,
         "equipe": {
           "nome": "Futsal M-A2",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3360,8 +3360,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_18",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000018",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-09T09:30:00Z",
@@ -3369,7 +3369,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Segunda-feira 09:30 | Campus São Sebastião Futsal Masculino Rodada 1 - Grupo B Futsal M-B1 x Futsal M-B2",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3379,17 +3379,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_18_1",
-        "partida_id": "part_18",
+        "id": "00000000-0000-0000-0006-000000000003",
+        "partida_id": "00000000-0000-0000-0005-000000000018",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "o Futsal Masculino Rodada 1 - Grupo B Futsal M-B1",
         "vencedor": false,
         "equipe": {
           "nome": "o Futsal Masculino Rodada 1 - Grupo B Futsal M-B1",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3398,17 +3398,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_18_2",
-        "partida_id": "part_18",
+        "id": "00000000-0000-0000-0006-000000000004",
+        "partida_id": "00000000-0000-0000-0005-000000000018",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Futsal M-B2",
         "vencedor": false,
         "equipe": {
           "nome": "Futsal M-B2",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3419,8 +3419,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_19",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000019",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-09T10:30:00Z",
@@ -3428,7 +3428,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Segunda-feira 10:30 | Campus São Sebastião Futsal Masculino Rodada 1 - Grupo C Futsal M-C1 x Futsal M-C2",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3438,17 +3438,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_19_1",
-        "partida_id": "part_19",
+        "id": "00000000-0000-0000-0006-000000000005",
+        "partida_id": "00000000-0000-0000-0005-000000000019",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "o Futsal Masculino Rodada 1 - Grupo C Futsal M-C1",
         "vencedor": false,
         "equipe": {
           "nome": "o Futsal Masculino Rodada 1 - Grupo C Futsal M-C1",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3457,17 +3457,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_19_2",
-        "partida_id": "part_19",
+        "id": "00000000-0000-0000-0006-000000000006",
+        "partida_id": "00000000-0000-0000-0005-000000000019",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Futsal M-C2",
         "vencedor": false,
         "equipe": {
           "nome": "Futsal M-C2",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3478,8 +3478,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_20",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000020",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-10T08:30:00Z",
@@ -3487,7 +3487,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 08:30 | Campus Gama Futsal Masculino Rodada 2 - Grupo A Futsal M-A2 x Futsal M-A3",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3497,17 +3497,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_20_1",
-        "partida_id": "part_20",
+        "id": "00000000-0000-0000-0006-000000000007",
+        "partida_id": "00000000-0000-0000-0005-000000000020",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Gama Futsal Masculino Rodada 2 - Grupo A Futsal M-A2",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Gama Futsal Masculino Rodada 2 - Grupo A Futsal M-A2",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3516,17 +3516,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_20_2",
-        "partida_id": "part_20",
+        "id": "00000000-0000-0000-0006-000000000008",
+        "partida_id": "00000000-0000-0000-0005-000000000020",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Futsal M-A3",
         "vencedor": false,
         "equipe": {
           "nome": "Futsal M-A3",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3537,8 +3537,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_21",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000021",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-10T09:30:00Z",
@@ -3546,7 +3546,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 09:30 | Campus Gama Futsal Masculino Rodada 2 - Grupo B Futsal M-B2 x Futsal M-B3",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3556,17 +3556,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_21_1",
-        "partida_id": "part_21",
+        "id": "00000000-0000-0000-0006-000000000009",
+        "partida_id": "00000000-0000-0000-0005-000000000021",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Gama Futsal Masculino Rodada 2 - Grupo B Futsal M-B2",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Gama Futsal Masculino Rodada 2 - Grupo B Futsal M-B2",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3575,17 +3575,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_21_2",
-        "partida_id": "part_21",
+        "id": "00000000-0000-0000-0006-000000000010",
+        "partida_id": "00000000-0000-0000-0005-000000000021",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Futsal M-B3",
         "vencedor": false,
         "equipe": {
           "nome": "Futsal M-B3",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3596,8 +3596,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_22",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000022",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-10T10:30:00Z",
@@ -3605,7 +3605,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 10:30 | Campus Gama Futsal Masculino Rodada 2 - Grupo C Futsal M-C2 x Futsal M-C3",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3615,17 +3615,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_22_1",
-        "partida_id": "part_22",
+        "id": "00000000-0000-0000-0006-000000000011",
+        "partida_id": "00000000-0000-0000-0005-000000000022",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Gama Futsal Masculino Rodada 2 - Grupo C Futsal M-C2",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Gama Futsal Masculino Rodada 2 - Grupo C Futsal M-C2",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3634,17 +3634,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_22_2",
-        "partida_id": "part_22",
+        "id": "00000000-0000-0000-0006-000000000012",
+        "partida_id": "00000000-0000-0000-0005-000000000022",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Futsal M-C3",
         "vencedor": false,
         "equipe": {
           "nome": "Futsal M-C3",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3655,8 +3655,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_23",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000023",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Triangular Final",
     "rodada": 1,
     "data_hora": "2026-11-10T11:30:00Z",
@@ -3664,7 +3664,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 11:30 | Campus Gama Futsal Feminino Triangular - Rodada 1 Futsal F1 x Futsal F2",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3674,17 +3674,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_23_1",
-        "partida_id": "part_23",
+        "id": "00000000-0000-0000-0006-000000000013",
+        "partida_id": "00000000-0000-0000-0005-000000000023",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Gama Futsal Feminino Triangular - Rodada 1 Futsal F1",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Gama Futsal Feminino Triangular - Rodada 1 Futsal F1",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3693,17 +3693,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_23_2",
-        "partida_id": "part_23",
+        "id": "00000000-0000-0000-0006-000000000014",
+        "partida_id": "00000000-0000-0000-0005-000000000023",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Futsal F2",
         "vencedor": false,
         "equipe": {
           "nome": "Futsal F2",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -3714,8 +3714,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_24",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000024",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-10T14:00:00Z",
@@ -3723,7 +3723,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 14:00 | Campus Gama Vôlei (Quadra Misto) Rodada 2 - Grupo A (Jogo 1) Vôlei Misto A1 x Vôlei Misto A3",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3734,8 +3734,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_25",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000025",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-10T15:00:00Z",
@@ -3743,7 +3743,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 15:00 | Campus Gama Vôlei (Quadra Misto) Rodada 2 - Grupo A (Jogo 2) Vôlei Misto A2 x Vôlei Misto A4",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3754,8 +3754,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_26",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000026",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-10T16:00:00Z",
@@ -3763,7 +3763,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 16:00 | Campus Gama Vôlei (Quadra Misto) Rodada 2 - Grupo B (Jogo 1) Vôlei Misto B1 x Vôlei Misto B3",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3774,8 +3774,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_27",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000027",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-10T17:00:00Z",
@@ -3783,7 +3783,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 17:00 | Campus Gama Vôlei (Quadra Misto) Rodada 2 - Grupo B (Jogo 2) Vôlei Misto B2 x Vôlei Misto B4",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3794,8 +3794,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_28",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000028",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-11T08:30:00Z",
@@ -3803,7 +3803,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 08:30 | Campus Gama Queimada Mista Classificatória - Rodada 1 (Jogo 1) Queimada X1 x Queimada X6 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3814,8 +3814,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_29",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000029",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-11T08:50:00Z",
@@ -3823,7 +3823,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 08:50 | Campus Gama Queimada Mista Classificatória - Rodada 1 (Jogo 2) Queimada X2 x Queimada X5 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3834,8 +3834,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_30",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000030",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-11T09:10:00Z",
@@ -3843,7 +3843,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 09:10 | Campus Gama Queimada Mista Classificatória - Rodada 1 (Jogo 3) Queimada X3 x Queimada X4 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3854,8 +3854,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_31",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000031",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-11T09:30:00Z",
@@ -3863,7 +3863,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 09:30 | Campus Gama Queimada Mista Classificatória - Rodada 2 (Jogo 4) Queimada X1 x Queimada X5 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3874,8 +3874,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_32",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000032",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-11T09:50:00Z",
@@ -3883,7 +3883,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 09:50 | Campus Gama Queimada Mista Classificatória - Rodada 2 (Jogo 5) Queimada X4 x Queimada X6 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3894,8 +3894,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_33",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000033",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-11T10:10:00Z",
@@ -3903,7 +3903,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 10:10 | Campus Gama Queimada Mista Classificatória - Rodada 2 (Jogo 6) Queimada X2 x Queimada X3 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3914,8 +3914,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_34",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000034",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-11T10:30:00Z",
@@ -3923,7 +3923,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 10:30 | Campus Gama Queimada Mista Classificatória - Rodada 3 (Jogo 7) Queimada X1 x Queimada X4 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3934,8 +3934,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_35",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000035",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-11T10:50:00Z",
@@ -3943,7 +3943,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 10:50 | Campus Gama Queimada Mista Classificatória - Rodada 3 (Jogo 8) Queimada X3 x Queimada X5 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3954,8 +3954,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_36",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000036",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-11T11:10:00Z",
@@ -3963,7 +3963,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 11:10 | Campus Gama Queimada Mista Classificatória - Rodada 3 (Jogo 9) Queimada X2 x Queimada X6 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3974,8 +3974,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_37",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000037",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 4",
     "rodada": 1,
     "data_hora": "2026-11-11T14:00:00Z",
@@ -3983,7 +3983,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 14:00 | Campus Gama Queimada Mista Classificatória - Rodada 4 (Jogo 10) Queimada X1 x Queimada X3 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -3994,8 +3994,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_38",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000038",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 4",
     "rodada": 1,
     "data_hora": "2026-11-11T14:20:00Z",
@@ -4003,7 +4003,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 14:20 | Campus Gama Queimada Mista Classificatória - Rodada 4 (Jogo 11) Queimada X2 x Queimada X4 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4014,8 +4014,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_39",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000039",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 4",
     "rodada": 1,
     "data_hora": "2026-11-11T14:40:00Z",
@@ -4023,7 +4023,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 14:40 | Campus Gama Queimada Mista Classificatória - Rodada 4 (Jogo 12) Queimada X5 x Queimada X6 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4034,8 +4034,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_40",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000040",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 5",
     "rodada": 1,
     "data_hora": "2026-11-11T15:00:00Z",
@@ -4043,7 +4043,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 15:00 | Campus Gama Queimada Mista Classificatória - Rodada 5 (Jogo 13) Queimada X1 x Queimada X2 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4054,8 +4054,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_41",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000041",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 5",
     "rodada": 1,
     "data_hora": "2026-11-11T15:20:00Z",
@@ -4063,7 +4063,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 15:20 | Campus Gama Queimada Mista Classificatória - Rodada 5 (Jogo 14) Queimada X3 x Queimada X6 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4074,8 +4074,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_42",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000042",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Rodada 5",
     "rodada": 1,
     "data_hora": "2026-11-11T15:40:00Z",
@@ -4083,7 +4083,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 15:40 | Campus Gama Queimada Mista Classificatória - Rodada 5 (Jogo 15) Queimada X4 x Queimada X5 (15 min corridos)",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4094,8 +4094,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_43",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000043",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-11T16:15:00Z",
@@ -4103,7 +4103,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 16:15 | Campus Gama Queimada Mista Semifinal 1 (Jogo 16) 1º Geral Classificatória x 4º Geral Classificatória",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4114,8 +4114,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_44",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000044",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-11T16:35:00Z",
@@ -4123,7 +4123,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 16:35 | Campus Gama Queimada Mista Semifinal 2 (Jogo 17) 2º Geral Classificatória x 3º Geral Classificatória",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4134,8 +4134,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_45",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000045",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-11T16:55:00Z",
@@ -4143,7 +4143,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 16:55 | Campus Gama Queimada Mista Disputa de 3º Lugar (Jogo 18) Perdedor Semifinal 1 x Perdedor Semifinal 2",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4153,17 +4153,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_45_1",
-        "partida_id": "part_45",
+        "id": "00000000-0000-0000-0006-000000000015",
+        "partida_id": "00000000-0000-0000-0005-000000000045",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Perdedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "Perdedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "6",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000006",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4172,17 +4172,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_45_2",
-        "partida_id": "part_45",
+        "id": "00000000-0000-0000-0006-000000000016",
+        "partida_id": "00000000-0000-0000-0005-000000000045",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Perdedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Perdedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "6",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000006",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4193,8 +4193,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_46",
-    "modalidade_id": "6",
+    "id": "00000000-0000-0000-0005-000000000046",
+    "modalidade_id": "00000000-0000-0000-0002-000000000006",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-11T17:15:00Z",
@@ -4202,7 +4202,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 17:15 | Campus Gama Queimada Mista Final (Jogo 19) Vencedor Semifinal 1 x Vencedor Semifinal 2",
     "modalidade": {
-      "id": "6",
+      "id": "00000000-0000-0000-0002-000000000006",
       "nome": "Queimada",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4212,17 +4212,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_46_1",
-        "partida_id": "part_46",
+        "id": "00000000-0000-0000-0006-000000000017",
+        "partida_id": "00000000-0000-0000-0005-000000000046",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Vencedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "Vencedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "6",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000006",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4231,17 +4231,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_46_2",
-        "partida_id": "part_46",
+        "id": "00000000-0000-0000-0006-000000000018",
+        "partida_id": "00000000-0000-0000-0005-000000000046",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Vencedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Vencedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "6",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000006",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4252,8 +4252,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_47",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000047",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Triangular Final",
     "rodada": 1,
     "data_hora": "2026-11-12T08:30:00Z",
@@ -4261,7 +4261,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 08:30 | Campus Ceilândia Vôlei de Areia Misto Triangular - Rodada 2 Vôlei Areia X2 x Vôlei Areia X3",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4272,8 +4272,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_48",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000048",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-12T09:15:00Z",
@@ -4281,7 +4281,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 09:15 | Campus Ceilândia Vôlei de Areia Masc. Rodada 3 - Grupo A Vôlei Areia M-A1 x Vôlei Areia M-A3",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4292,8 +4292,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_49",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000049",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-12T10:00:00Z",
@@ -4301,7 +4301,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 10:00 | Campus Ceilândia Vôlei de Areia Masc. Rodada 3 - Grupo B Vôlei Areia M-B1 x Vôlei Areia M-B3",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4312,8 +4312,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_50",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000050",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-12T10:45:00Z",
@@ -4321,7 +4321,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 10:45 | Campus Ceilândia Vôlei de Areia Masc. Rodada 3 - Grupo C Vôlei Areia M-C1 x Vôlei Areia M-C3",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4332,8 +4332,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_51",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000051",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-12T11:30:00Z",
@@ -4341,7 +4341,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 11:30 | Campus Ceilândia Vôlei de Areia Masc. Rodada 2 - Grupo D Vôlei Areia M-D2 x Vôlei Areia M-D1",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4352,8 +4352,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_52",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000052",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-12T14:30:00Z",
@@ -4361,7 +4361,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 14:30 | Campus Ceilândia Vôlei de Areia Fem. Semifinal 2 Vôlei Areia F3 x Vôlei Areia F4",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4372,8 +4372,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_53",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000053",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Triangular Final",
     "rodada": 1,
     "data_hora": "2026-11-12T15:30:00Z",
@@ -4381,7 +4381,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 15:30 | Campus Ceilândia Vôlei de Areia Misto Triangular - Rodada 3 (Decisivo) Vôlei Areia X1 x Vôlei Areia X3",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4392,8 +4392,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_54",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000054",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-13T14:00:00Z",
@@ -4401,7 +4401,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Sexta-feira 14:00 | Campus Planaltina Vôlei (Quadra Misto) Rodada 3 - Grupo A (Jogo 1) Vôlei Misto A1 x Vôlei Misto A4",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4412,8 +4412,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_55",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000055",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-13T15:00:00Z",
@@ -4421,7 +4421,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Sexta-feira 15:00 | Campus Planaltina Vôlei (Quadra Misto) Rodada 3 - Grupo A (Jogo 2) Vôlei Misto A2 x Vôlei Misto A3",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4432,8 +4432,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_56",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000056",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-13T16:00:00Z",
@@ -4441,7 +4441,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Sexta-feira 16:00 | Campus Planaltina Vôlei (Quadra Misto) Rodada 3 - Grupo B (Jogo 1) Vôlei Misto B1 x Vôlei Misto B4",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4452,8 +4452,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_57",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000057",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-13T17:00:00Z",
@@ -4461,7 +4461,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Sexta-feira 17:00 | Campus Planaltina Vôlei (Quadra Misto) Rodada 3 - Grupo B (Jogo 2) Vôlei Misto B2 x Vôlei Misto B3",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4472,8 +4472,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_58",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000058",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-16T14:30:00Z",
@@ -4481,7 +4481,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Segunda-feira 14:30 | Campus Taguatinga Vôlei (Quadra Misto) Semifinal 1 1º Grupo A x 2º Grupo B",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4491,17 +4491,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_58_1",
-        "partida_id": "part_58",
+        "id": "00000000-0000-0000-0006-000000000019",
+        "partida_id": "00000000-0000-0000-0005-000000000058",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Semifinal 1 1º Grupo A",
         "vencedor": false,
         "equipe": {
           "nome": "Semifinal 1 1º Grupo A",
-          "id": "temp_a",
-          "modalidade_id": "3",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000003",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4510,17 +4510,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_58_2",
-        "partida_id": "part_58",
+        "id": "00000000-0000-0000-0006-000000000020",
+        "partida_id": "00000000-0000-0000-0005-000000000058",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "2º Grupo B",
         "vencedor": false,
         "equipe": {
           "nome": "2º Grupo B",
-          "id": "temp_b",
-          "modalidade_id": "3",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000003",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4531,8 +4531,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_59",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000059",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-16T16:00:00Z",
@@ -4540,7 +4540,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Segunda-feira 16:00 | Campus Taguatinga Vôlei (Quadra Misto) Semifinal 2 1º Grupo B x 2º Grupo A",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4550,17 +4550,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_59_1",
-        "partida_id": "part_59",
+        "id": "00000000-0000-0000-0006-000000000021",
+        "partida_id": "00000000-0000-0000-0005-000000000059",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Semifinal 2 1º Grupo B",
         "vencedor": false,
         "equipe": {
           "nome": "Semifinal 2 1º Grupo B",
-          "id": "temp_a",
-          "modalidade_id": "3",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000003",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4569,17 +4569,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_59_2",
-        "partida_id": "part_59",
+        "id": "00000000-0000-0000-0006-000000000022",
+        "partida_id": "00000000-0000-0000-0005-000000000059",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "2º Grupo A",
         "vencedor": false,
         "equipe": {
           "nome": "2º Grupo A",
-          "id": "temp_b",
-          "modalidade_id": "3",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000003",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4590,8 +4590,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_60",
-    "modalidade_id": "5",
+    "id": "00000000-0000-0000-0005-000000000060",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-17T08:30:00Z",
@@ -4599,7 +4599,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 08:30 | Campus Planaltina Handebol Misto Adaptado Classificatória - Rodada 1 (Jogo 1) Handebol X1 x Handebol X2 (2x15 min)",
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4610,8 +4610,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_61",
-    "modalidade_id": "5",
+    "id": "00000000-0000-0000-0005-000000000061",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-17T09:20:00Z",
@@ -4619,7 +4619,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 09:20 | Campus Planaltina Handebol Misto Adaptado Classificatória - Rodada 1 (Jogo 2) Handebol X3 x Handebol X4 (2x15 min)",
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4630,8 +4630,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_62",
-    "modalidade_id": "5",
+    "id": "00000000-0000-0000-0005-000000000062",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-17T10:30:00Z",
@@ -4639,7 +4639,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 10:30 | Campus Planaltina Handebol Misto Adaptado Classificatória - Rodada 2 (Jogo 3) Handebol X1 x Handebol X3 (2x15 min)",
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4650,8 +4650,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_63",
-    "modalidade_id": "5",
+    "id": "00000000-0000-0000-0005-000000000063",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-17T11:20:00Z",
@@ -4659,7 +4659,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 11:20 | Campus Planaltina Handebol Misto Adaptado Classificatória - Rodada 2 (Jogo 4) Handebol X2 x Handebol X4 (2x15 min)",
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4670,8 +4670,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_64",
-    "modalidade_id": "5",
+    "id": "00000000-0000-0000-0005-000000000064",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-17T14:30:00Z",
@@ -4679,7 +4679,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 14:30 | Campus Planaltina Handebol Misto Adaptado Classificatória - Rodada 3 (Jogo 5) Handebol X1 x Handebol X4 (Descanso de 3h)",
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4690,8 +4690,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_65",
-    "modalidade_id": "5",
+    "id": "00000000-0000-0000-0005-000000000065",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-17T15:20:00Z",
@@ -4699,7 +4699,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 15:20 | Campus Planaltina Handebol Misto Adaptado Classificatória - Rodada 3 (Jogo 6) Handebol X2 x Handebol X3 (Descanso de 3h)",
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4710,8 +4710,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_66",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000066",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Triangular Final",
     "rodada": 1,
     "data_hora": "2026-11-17T16:30:00Z",
@@ -4719,7 +4719,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 16:30 | Campus Planaltina Futsal Feminino Triangular - Rodada 2 Futsal F2 x Futsal F3",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4729,17 +4729,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_66_1",
-        "partida_id": "part_66",
+        "id": "00000000-0000-0000-0006-000000000023",
+        "partida_id": "00000000-0000-0000-0005-000000000066",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Planaltina Futsal Feminino Triangular - Rodada 2 Futsal F2",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Planaltina Futsal Feminino Triangular - Rodada 2 Futsal F2",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4748,17 +4748,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_66_2",
-        "partida_id": "part_66",
+        "id": "00000000-0000-0000-0006-000000000024",
+        "partida_id": "00000000-0000-0000-0005-000000000066",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Futsal F3",
         "vencedor": false,
         "equipe": {
           "nome": "Futsal F3",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4769,8 +4769,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_67",
-    "modalidade_id": "11",
+    "id": "00000000-0000-0000-0005-000000000067",
+    "modalidade_id": "00000000-0000-0000-0002-000000000011",
     "fase": "Fase de Grupos",
     "rodada": 1,
     "data_hora": "2026-11-18T14:00:00Z",
@@ -4778,7 +4778,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 14:00 | Campus Brasília Natação Finais Diretas Cronometradas 25m Livre, 50m Livre e 100m Livre (Masc. e Fem.)",
     "modalidade": {
-      "id": "11",
+      "id": "00000000-0000-0000-0002-000000000011",
       "nome": "Natação",
       "tipo": "INDIVIDUAL",
       "categoria": "MISTO",
@@ -4789,8 +4789,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_68",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000068",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-19T08:30:00Z",
@@ -4798,7 +4798,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 08:30 | Campus Ceilândia Vôlei de Areia Fem. Disputa de 3º Lugar Perdedor Semifinal 1 x Perdedor Semifinal 2",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4808,17 +4808,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_68_1",
-        "partida_id": "part_68",
+        "id": "00000000-0000-0000-0006-000000000025",
+        "partida_id": "00000000-0000-0000-0005-000000000068",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "lei de Areia Fem. Disputa de 3º Lugar Perdedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "lei de Areia Fem. Disputa de 3º Lugar Perdedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "2",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000002",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4827,17 +4827,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_68_2",
-        "partida_id": "part_68",
+        "id": "00000000-0000-0000-0006-000000000026",
+        "partida_id": "00000000-0000-0000-0005-000000000068",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Perdedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Perdedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "2",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000002",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4848,8 +4848,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_69",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000069",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-19T09:30:00Z",
@@ -4857,7 +4857,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 09:30 | Campus Ceilândia Vôlei de Areia Masc. Semifinal 1 1º Geral x Melhor 2º Colocado Geral",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4867,17 +4867,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_69_1",
-        "partida_id": "part_69",
+        "id": "00000000-0000-0000-0006-000000000027",
+        "partida_id": "00000000-0000-0000-0005-000000000069",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "lei de Areia Masc. Semifinal 1 1º Geral",
         "vencedor": false,
         "equipe": {
           "nome": "lei de Areia Masc. Semifinal 1 1º Geral",
-          "id": "temp_a",
-          "modalidade_id": "2",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000002",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4886,17 +4886,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_69_2",
-        "partida_id": "part_69",
+        "id": "00000000-0000-0000-0006-000000000028",
+        "partida_id": "00000000-0000-0000-0005-000000000069",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Melhor 2º Colocado Geral",
         "vencedor": false,
         "equipe": {
           "nome": "Melhor 2º Colocado Geral",
-          "id": "temp_b",
-          "modalidade_id": "2",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000002",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4907,8 +4907,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_70",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000070",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-19T10:30:00Z",
@@ -4916,7 +4916,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 10:30 | Campus Ceilândia Vôlei de Areia Masc. Semifinal 2 2º Geral x 3º Geral",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4926,17 +4926,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_70_1",
-        "partida_id": "part_70",
+        "id": "00000000-0000-0000-0006-000000000029",
+        "partida_id": "00000000-0000-0000-0005-000000000070",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "lei de Areia Masc. Semifinal 2 2º Geral",
         "vencedor": false,
         "equipe": {
           "nome": "lei de Areia Masc. Semifinal 2 2º Geral",
-          "id": "temp_a",
-          "modalidade_id": "2",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000002",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4945,17 +4945,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_70_2",
-        "partida_id": "part_70",
+        "id": "00000000-0000-0000-0006-000000000030",
+        "partida_id": "00000000-0000-0000-0005-000000000070",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "3º Geral",
         "vencedor": false,
         "equipe": {
           "nome": "3º Geral",
-          "id": "temp_b",
-          "modalidade_id": "2",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000002",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -4966,8 +4966,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_71",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000071",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-19T14:30:00Z",
@@ -4975,7 +4975,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 14:30 | Campus Ceilândia Vôlei de Areia Masc. Disputa de 3º Lugar (Descanso de 4h) Perdedor Semifinal 1 x Perdedor Semifinal 2",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -4985,17 +4985,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_71_1",
-        "partida_id": "part_71",
+        "id": "00000000-0000-0000-0006-000000000031",
+        "partida_id": "00000000-0000-0000-0005-000000000071",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Perdedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "Perdedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "2",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000002",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5004,17 +5004,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_71_2",
-        "partida_id": "part_71",
+        "id": "00000000-0000-0000-0006-000000000032",
+        "partida_id": "00000000-0000-0000-0005-000000000071",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Perdedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Perdedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "2",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000002",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5025,8 +5025,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_72",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000072",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-19T15:30:00Z",
@@ -5034,7 +5034,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 15:30 | Campus Ceilândia Vôlei de Areia Masc. Final (Descanso de 4h) Vencedor Semifinal 1 x Vencedor Semifinal 2",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5044,17 +5044,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_72_1",
-        "partida_id": "part_72",
+        "id": "00000000-0000-0000-0006-000000000033",
+        "partida_id": "00000000-0000-0000-0005-000000000072",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Vencedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "Vencedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "2",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000002",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5063,17 +5063,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_72_2",
-        "partida_id": "part_72",
+        "id": "00000000-0000-0000-0006-000000000034",
+        "partida_id": "00000000-0000-0000-0005-000000000072",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Vencedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Vencedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "2",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000002",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5084,8 +5084,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_73",
-    "modalidade_id": "2",
+    "id": "00000000-0000-0000-0005-000000000073",
+    "modalidade_id": "00000000-0000-0000-0002-000000000002",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-19T16:30:00Z",
@@ -5093,7 +5093,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 16:30 | Campus Ceilândia Vôlei de Areia Fem. Final Vencedor Semifinal 1 x Vencedor Semifinal 2",
     "modalidade": {
-      "id": "2",
+      "id": "00000000-0000-0000-0002-000000000002",
       "nome": "Vôlei de Areia",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5103,17 +5103,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_73_1",
-        "partida_id": "part_73",
+        "id": "00000000-0000-0000-0006-000000000035",
+        "partida_id": "00000000-0000-0000-0005-000000000073",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "lei de Areia Fem. Final Vencedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "lei de Areia Fem. Final Vencedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "2",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000002",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5122,17 +5122,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_73_2",
-        "partida_id": "part_73",
+        "id": "00000000-0000-0000-0006-000000000036",
+        "partida_id": "00000000-0000-0000-0005-000000000073",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Vencedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Vencedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "2",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000002",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5143,8 +5143,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_74",
-    "modalidade_id": "5",
+    "id": "00000000-0000-0000-0005-000000000074",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-23T14:30:00Z",
@@ -5152,7 +5152,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Segunda-feira 14:30 | Campus Taguatinga Handebol Misto Adaptado Semifinal 1 1º Colocado Geral x 4º Colocado Geral",
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5162,17 +5162,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_74_1",
-        "partida_id": "part_74",
+        "id": "00000000-0000-0000-0006-000000000037",
+        "partida_id": "00000000-0000-0000-0005-000000000074",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Taguatinga Handebol Misto Adaptado Semifinal 1 1º Colocado Geral",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Taguatinga Handebol Misto Adaptado Semifinal 1 1º Colocado Geral",
-          "id": "temp_a",
-          "modalidade_id": "5",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000005",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5181,17 +5181,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_74_2",
-        "partida_id": "part_74",
+        "id": "00000000-0000-0000-0006-000000000038",
+        "partida_id": "00000000-0000-0000-0005-000000000074",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "4º Colocado Geral",
         "vencedor": false,
         "equipe": {
           "nome": "4º Colocado Geral",
-          "id": "temp_b",
-          "modalidade_id": "5",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000005",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5202,8 +5202,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_75",
-    "modalidade_id": "5",
+    "id": "00000000-0000-0000-0005-000000000075",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-23T15:30:00Z",
@@ -5211,7 +5211,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Segunda-feira 15:30 | Campus Taguatinga Handebol Misto Adaptado Semifinal 2 2º Colocado Geral x 3º Colocado Geral",
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5221,17 +5221,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_75_1",
-        "partida_id": "part_75",
+        "id": "00000000-0000-0000-0006-000000000039",
+        "partida_id": "00000000-0000-0000-0005-000000000075",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Taguatinga Handebol Misto Adaptado Semifinal 2 2º Colocado Geral",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Taguatinga Handebol Misto Adaptado Semifinal 2 2º Colocado Geral",
-          "id": "temp_a",
-          "modalidade_id": "5",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000005",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5240,17 +5240,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_75_2",
-        "partida_id": "part_75",
+        "id": "00000000-0000-0000-0006-000000000040",
+        "partida_id": "00000000-0000-0000-0005-000000000075",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "3º Colocado Geral",
         "vencedor": false,
         "equipe": {
           "nome": "3º Colocado Geral",
-          "id": "temp_b",
-          "modalidade_id": "5",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000005",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5261,8 +5261,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_76",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000076",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Fase de Grupos",
     "rodada": 1,
     "data_hora": "2026-11-24T08:30:00Z",
@@ -5270,7 +5270,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 08:30 | Campus Gama Basquete 3x3 Masc. Fase de Grupos (Grupo A - Jogo 1) Basquete 3x3 M-A1 x Basquete 3x3 M-A2",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5280,17 +5280,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_76_1",
-        "partida_id": "part_76",
+        "id": "00000000-0000-0000-0006-000000000041",
+        "partida_id": "00000000-0000-0000-0005-000000000076",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 M-A1",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 M-A1",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5299,17 +5299,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_76_2",
-        "partida_id": "part_76",
+        "id": "00000000-0000-0000-0006-000000000042",
+        "partida_id": "00000000-0000-0000-0005-000000000076",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 M-A2",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 M-A2",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5320,8 +5320,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_77",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000077",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Fase de Grupos",
     "rodada": 1,
     "data_hora": "2026-11-24T08:50:00Z",
@@ -5329,7 +5329,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 08:50 | Campus Gama Basquete 3x3 Masc. Fase de Grupos (Grupo B - Jogo 1) Basquete 3x3 M-B1 x Basquete 3x3 M-B2",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5339,17 +5339,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_77_1",
-        "partida_id": "part_77",
+        "id": "00000000-0000-0000-0006-000000000043",
+        "partida_id": "00000000-0000-0000-0005-000000000077",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 M-B1",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 M-B1",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5358,17 +5358,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_77_2",
-        "partida_id": "part_77",
+        "id": "00000000-0000-0000-0006-000000000044",
+        "partida_id": "00000000-0000-0000-0005-000000000077",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 M-B2",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 M-B2",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5379,8 +5379,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_78",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000078",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Triangular Final",
     "rodada": 1,
     "data_hora": "2026-11-24T09:10:00Z",
@@ -5388,7 +5388,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 09:10 | Campus Gama Basquete 3x3 Misto Triangular (Jogo 1) Basquete 3x3 X1 x Basquete 3x3 X2",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5398,17 +5398,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_78_1",
-        "partida_id": "part_78",
+        "id": "00000000-0000-0000-0006-000000000045",
+        "partida_id": "00000000-0000-0000-0005-000000000078",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 X1",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 X1",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5417,17 +5417,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_78_2",
-        "partida_id": "part_78",
+        "id": "00000000-0000-0000-0006-000000000046",
+        "partida_id": "00000000-0000-0000-0005-000000000078",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 X2",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 X2",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5438,8 +5438,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_79",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000079",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Fase de Grupos",
     "rodada": 1,
     "data_hora": "2026-11-24T09:30:00Z",
@@ -5447,7 +5447,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 09:30 | Campus Gama Basquete 3x3 Masc. Fase de Grupos (Grupo A - Jogo 2) Basquete 3x3 M-A2 x Basquete 3x3 M-A3",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5457,17 +5457,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_79_1",
-        "partida_id": "part_79",
+        "id": "00000000-0000-0000-0006-000000000047",
+        "partida_id": "00000000-0000-0000-0005-000000000079",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 M-A2",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 M-A2",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5476,17 +5476,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_79_2",
-        "partida_id": "part_79",
+        "id": "00000000-0000-0000-0006-000000000048",
+        "partida_id": "00000000-0000-0000-0005-000000000079",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 M-A3",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 M-A3",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5497,8 +5497,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_80",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000080",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Fase de Grupos",
     "rodada": 1,
     "data_hora": "2026-11-24T09:50:00Z",
@@ -5506,7 +5506,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 09:50 | Campus Gama Basquete 3x3 Masc. Fase de Grupos (Grupo B - Jogo 2) Basquete 3x3 M-B2 x Basquete 3x3 M-B3",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5516,17 +5516,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_80_1",
-        "partida_id": "part_80",
+        "id": "00000000-0000-0000-0006-000000000049",
+        "partida_id": "00000000-0000-0000-0005-000000000080",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 M-B2",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 M-B2",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5535,17 +5535,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_80_2",
-        "partida_id": "part_80",
+        "id": "00000000-0000-0000-0006-000000000050",
+        "partida_id": "00000000-0000-0000-0005-000000000080",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 M-B3",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 M-B3",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5556,8 +5556,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_81",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000081",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Triangular Final",
     "rodada": 1,
     "data_hora": "2026-11-24T10:10:00Z",
@@ -5565,7 +5565,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 10:10 | Campus Gama Basquete 3x3 Misto Triangular (Jogo 2) Basquete 3x3 X2 x Basquete 3x3 X3",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5575,17 +5575,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_81_1",
-        "partida_id": "part_81",
+        "id": "00000000-0000-0000-0006-000000000051",
+        "partida_id": "00000000-0000-0000-0005-000000000081",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 X2",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 X2",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5594,17 +5594,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_81_2",
-        "partida_id": "part_81",
+        "id": "00000000-0000-0000-0006-000000000052",
+        "partida_id": "00000000-0000-0000-0005-000000000081",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 X3",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 X3",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5615,8 +5615,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_82",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000082",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Fase de Grupos",
     "rodada": 1,
     "data_hora": "2026-11-24T10:30:00Z",
@@ -5624,7 +5624,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 10:30 | Campus Gama Basquete 3x3 Masc. Fase de Grupos (Grupo A - Jogo 3) Basquete 3x3 M-A1 x Basquete 3x3 M-A3",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5634,17 +5634,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_82_1",
-        "partida_id": "part_82",
+        "id": "00000000-0000-0000-0006-000000000053",
+        "partida_id": "00000000-0000-0000-0005-000000000082",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 M-A1",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 M-A1",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5653,17 +5653,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_82_2",
-        "partida_id": "part_82",
+        "id": "00000000-0000-0000-0006-000000000054",
+        "partida_id": "00000000-0000-0000-0005-000000000082",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 M-A3",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 M-A3",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5674,8 +5674,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_83",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000083",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Fase de Grupos",
     "rodada": 1,
     "data_hora": "2026-11-24T10:50:00Z",
@@ -5683,7 +5683,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 10:50 | Campus Gama Basquete 3x3 Masc. Fase de Grupos (Grupo B - Jogo 3) Basquete 3x3 M-B1 x Basquete 3x3 M-B3",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5693,17 +5693,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_83_1",
-        "partida_id": "part_83",
+        "id": "00000000-0000-0000-0006-000000000055",
+        "partida_id": "00000000-0000-0000-0005-000000000083",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 M-B1",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 M-B1",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5712,17 +5712,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_83_2",
-        "partida_id": "part_83",
+        "id": "00000000-0000-0000-0006-000000000056",
+        "partida_id": "00000000-0000-0000-0005-000000000083",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 M-B3",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 M-B3",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5733,8 +5733,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_84",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000084",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Triangular Final",
     "rodada": 1,
     "data_hora": "2026-11-24T11:10:00Z",
@@ -5742,7 +5742,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 11:10 | Campus Gama Basquete 3x3 Misto Triangular (Jogo 3) Basquete 3x3 X1 x Basquete 3x3 X3",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5752,17 +5752,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_84_1",
-        "partida_id": "part_84",
+        "id": "00000000-0000-0000-0006-000000000057",
+        "partida_id": "00000000-0000-0000-0005-000000000084",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 X1",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 X1",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5771,17 +5771,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_84_2",
-        "partida_id": "part_84",
+        "id": "00000000-0000-0000-0006-000000000058",
+        "partida_id": "00000000-0000-0000-0005-000000000084",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Basquete 3x3 X3",
         "vencedor": false,
         "equipe": {
           "nome": "Basquete 3x3 X3",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5792,8 +5792,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_85",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000085",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-24T14:00:00Z",
@@ -5801,7 +5801,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 14:00 | Campus Gama Basquete 3x3 Masc. Semifinal 1 1º Grupo A x 2º Grupo B",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5811,17 +5811,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_85_1",
-        "partida_id": "part_85",
+        "id": "00000000-0000-0000-0006-000000000059",
+        "partida_id": "00000000-0000-0000-0005-000000000085",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Gama Basquete 3x3 Masc. Semifinal 1 1º Grupo A",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Gama Basquete 3x3 Masc. Semifinal 1 1º Grupo A",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5830,17 +5830,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_85_2",
-        "partida_id": "part_85",
+        "id": "00000000-0000-0000-0006-000000000060",
+        "partida_id": "00000000-0000-0000-0005-000000000085",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "2º Grupo B",
         "vencedor": false,
         "equipe": {
           "nome": "2º Grupo B",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5851,8 +5851,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_86",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000086",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-24T14:25:00Z",
@@ -5860,7 +5860,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 14:25 | Campus Gama Basquete 3x3 Masc. Semifinal 2 1º Grupo B x 2º Grupo A",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5870,17 +5870,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_86_1",
-        "partida_id": "part_86",
+        "id": "00000000-0000-0000-0006-000000000061",
+        "partida_id": "00000000-0000-0000-0005-000000000086",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Gama Basquete 3x3 Masc. Semifinal 2 1º Grupo B",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Gama Basquete 3x3 Masc. Semifinal 2 1º Grupo B",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5889,17 +5889,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_86_2",
-        "partida_id": "part_86",
+        "id": "00000000-0000-0000-0006-000000000062",
+        "partida_id": "00000000-0000-0000-0005-000000000086",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "2º Grupo A",
         "vencedor": false,
         "equipe": {
           "nome": "2º Grupo A",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5910,8 +5910,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_87",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000087",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Final",
     "rodada": 1,
     "data_hora": "2026-11-24T14:50:00Z",
@@ -5919,7 +5919,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 14:50 | Campus Gama Basquete 3x3 Misto Final 1º do Triangular x 2º do Triangular",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5929,17 +5929,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_87_1",
-        "partida_id": "part_87",
+        "id": "00000000-0000-0000-0006-000000000063",
+        "partida_id": "00000000-0000-0000-0005-000000000087",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Gama Basquete 3x3 Misto Final 1º do Triangular",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Gama Basquete 3x3 Misto Final 1º do Triangular",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5948,17 +5948,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_87_2",
-        "partida_id": "part_87",
+        "id": "00000000-0000-0000-0006-000000000064",
+        "partida_id": "00000000-0000-0000-0005-000000000087",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "2º do Triangular",
         "vencedor": false,
         "equipe": {
           "nome": "2º do Triangular",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -5969,8 +5969,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_88",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000088",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-24T15:15:00Z",
@@ -5978,7 +5978,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 15:15 | Campus Gama Basquete 3x3 Masc. Disputa de 3º Lugar Perdedor Semifinal 1 x Perdedor Semifinal 2",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -5988,17 +5988,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_88_1",
-        "partida_id": "part_88",
+        "id": "00000000-0000-0000-0006-000000000065",
+        "partida_id": "00000000-0000-0000-0005-000000000088",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Gama Basquete 3x3 Masc. Disputa de 3º Lugar Perdedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Gama Basquete 3x3 Masc. Disputa de 3º Lugar Perdedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6007,17 +6007,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_88_2",
-        "partida_id": "part_88",
+        "id": "00000000-0000-0000-0006-000000000066",
+        "partida_id": "00000000-0000-0000-0005-000000000088",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Perdedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Perdedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6028,8 +6028,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_89",
-    "modalidade_id": "4",
+    "id": "00000000-0000-0000-0005-000000000089",
+    "modalidade_id": "00000000-0000-0000-0002-000000000004",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-11-24T15:40:00Z",
@@ -6037,7 +6037,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 15:40 | Campus Gama Basquete 3x3 Masc. Final Vencedor Semifinal 1 x Vencedor Semifinal 2",
     "modalidade": {
-      "id": "4",
+      "id": "00000000-0000-0000-0002-000000000004",
       "nome": "Basquete 3x3",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6047,17 +6047,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_89_1",
-        "partida_id": "part_89",
+        "id": "00000000-0000-0000-0006-000000000067",
+        "partida_id": "00000000-0000-0000-0005-000000000089",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Gama Basquete 3x3 Masc. Final Vencedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Gama Basquete 3x3 Masc. Final Vencedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6066,17 +6066,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_89_2",
-        "partida_id": "part_89",
+        "id": "00000000-0000-0000-0006-000000000068",
+        "partida_id": "00000000-0000-0000-0005-000000000089",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Vencedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Vencedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "4",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000004",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6087,8 +6087,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_90",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000090",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-25T14:00:00Z",
@@ -6096,7 +6096,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 14:00 | Campus São Sebastião Futsal Masculino Rodada 3 - Grupo A Futsal M-A1 x Futsal M-A3",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6106,17 +6106,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_90_1",
-        "partida_id": "part_90",
+        "id": "00000000-0000-0000-0006-000000000069",
+        "partida_id": "00000000-0000-0000-0005-000000000090",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "o Futsal Masculino Rodada 3 - Grupo A Futsal M-A1",
         "vencedor": false,
         "equipe": {
           "nome": "o Futsal Masculino Rodada 3 - Grupo A Futsal M-A1",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6125,17 +6125,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_90_2",
-        "partida_id": "part_90",
+        "id": "00000000-0000-0000-0006-000000000070",
+        "partida_id": "00000000-0000-0000-0005-000000000090",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Futsal M-A3",
         "vencedor": false,
         "equipe": {
           "nome": "Futsal M-A3",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6146,8 +6146,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_91",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000091",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-25T15:00:00Z",
@@ -6155,7 +6155,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 15:00 | Campus São Sebastião Futsal Masculino Rodada 3 - Grupo B Futsal M-B1 x Futsal M-B3",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6165,17 +6165,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_91_1",
-        "partida_id": "part_91",
+        "id": "00000000-0000-0000-0006-000000000071",
+        "partida_id": "00000000-0000-0000-0005-000000000091",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "o Futsal Masculino Rodada 3 - Grupo B Futsal M-B1",
         "vencedor": false,
         "equipe": {
           "nome": "o Futsal Masculino Rodada 3 - Grupo B Futsal M-B1",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6184,17 +6184,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_91_2",
-        "partida_id": "part_91",
+        "id": "00000000-0000-0000-0006-000000000072",
+        "partida_id": "00000000-0000-0000-0005-000000000091",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Futsal M-B3",
         "vencedor": false,
         "equipe": {
           "nome": "Futsal M-B3",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6205,8 +6205,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_92",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000092",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-25T16:00:00Z",
@@ -6214,7 +6214,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 16:00 | Campus São Sebastião Futsal Masculino Rodada 3 - Grupo C Futsal M-C1 x Futsal M-C3",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6224,17 +6224,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_92_1",
-        "partida_id": "part_92",
+        "id": "00000000-0000-0000-0006-000000000073",
+        "partida_id": "00000000-0000-0000-0005-000000000092",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "o Futsal Masculino Rodada 3 - Grupo C Futsal M-C1",
         "vencedor": false,
         "equipe": {
           "nome": "o Futsal Masculino Rodada 3 - Grupo C Futsal M-C1",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6243,17 +6243,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_92_2",
-        "partida_id": "part_92",
+        "id": "00000000-0000-0000-0006-000000000074",
+        "partida_id": "00000000-0000-0000-0005-000000000092",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Futsal M-C3",
         "vencedor": false,
         "equipe": {
           "nome": "Futsal M-C3",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6264,8 +6264,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_93",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000093",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Triangular Final",
     "rodada": 1,
     "data_hora": "2026-11-25T17:00:00Z",
@@ -6273,7 +6273,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 17:00 | Campus São Sebastião Futsal Feminino Triangular - Rodada 3 (Decisivo) Futsal F1 x Futsal F3",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6283,17 +6283,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_93_1",
-        "partida_id": "part_93",
+        "id": "00000000-0000-0000-0006-000000000075",
+        "partida_id": "00000000-0000-0000-0005-000000000093",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Futsal F1",
         "vencedor": false,
         "equipe": {
           "nome": "Futsal F1",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6302,17 +6302,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_93_2",
-        "partida_id": "part_93",
+        "id": "00000000-0000-0000-0006-000000000076",
+        "partida_id": "00000000-0000-0000-0005-000000000093",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Futsal F3",
         "vencedor": false,
         "equipe": {
           "nome": "Futsal F3",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6323,8 +6323,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_94",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000094",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-26T08:30:00Z",
@@ -6332,7 +6332,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 08:30 | Campus Ceilândia Futevôlei Masc. Pontos Corridos - Rodada 1 (Jogo 1) Futevôlei M1 x Futevôlei M2 (1 set de 18 pts)",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6343,8 +6343,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_95",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000095",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 1",
     "rodada": 1,
     "data_hora": "2026-11-26T09:00:00Z",
@@ -6352,7 +6352,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 09:00 | Campus Ceilândia Futevôlei Masc. Pontos Corridos - Rodada 1 (Jogo 2) Futevôlei M3 x Futevôlei M4 (1 set de 18 pts)",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6363,8 +6363,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_96",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000096",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-26T09:30:00Z",
@@ -6372,7 +6372,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 09:30 | Campus Ceilândia Futevôlei Masc. Pontos Corridos - Rodada 2 (Jogo 3) Futevôlei M1 x Futevôlei M5 (1 set de 18 pts)",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6383,8 +6383,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_97",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000097",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 2",
     "rodada": 1,
     "data_hora": "2026-11-26T10:00:00Z",
@@ -6392,7 +6392,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 10:00 | Campus Ceilândia Futevôlei Masc. Pontos Corridos - Rodada 2 (Jogo 4) Futevôlei M2 x Futevôlei M3 (1 set de 18 pts)",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6403,8 +6403,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_98",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000098",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-26T10:30:00Z",
@@ -6412,7 +6412,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 10:30 | Campus Ceilândia Futevôlei Masc. Pontos Corridos - Rodada 3 (Jogo 5) Futevôlei M4 x Futevôlei M5 (1 set de 18 pts)",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6423,8 +6423,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_99",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000099",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Final",
     "rodada": 1,
     "data_hora": "2026-11-26T11:00:00Z",
@@ -6432,7 +6432,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 11:00 | Campus Ceilândia Futevôlei Misto Final Única (Melhor de 3 sets de 12 pts) Futevôlei X1 x Futevôlei X2",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6443,8 +6443,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_100",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000100",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 3",
     "rodada": 1,
     "data_hora": "2026-11-26T14:00:00Z",
@@ -6452,7 +6452,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 14:00 | Campus Ceilândia Futevôlei Masc. Pontos Corridos - Rodada 3 (Jogo 6) Futevôlei M1 x Futevôlei M3 (1 set de 18 pts)",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6463,8 +6463,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_101",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000101",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 4",
     "rodada": 1,
     "data_hora": "2026-11-26T14:30:00Z",
@@ -6472,7 +6472,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 14:30 | Campus Ceilândia Futevôlei Masc. Pontos Corridos - Rodada 4 (Jogo 7) Futevôlei M2 x Futevôlei M5 (1 set de 18 pts)",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6483,8 +6483,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_102",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000102",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 4",
     "rodada": 1,
     "data_hora": "2026-11-26T15:00:00Z",
@@ -6492,7 +6492,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 15:00 | Campus Ceilândia Futevôlei Masc. Pontos Corridos - Rodada 4 (Jogo 8) Futevôlei M1 x Futevôlei M4 (1 set de 18 pts)",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6503,8 +6503,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_103",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000103",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 5",
     "rodada": 1,
     "data_hora": "2026-11-26T15:30:00Z",
@@ -6512,7 +6512,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 15:30 | Campus Ceilândia Futevôlei Masc. Pontos Corridos - Rodada 5 (Jogo 9) Futevôlei M3 x Futevôlei M5 (1 set de 18 pts)",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6523,8 +6523,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_104",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000104",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Rodada 5",
     "rodada": 1,
     "data_hora": "2026-11-26T16:00:00Z",
@@ -6532,7 +6532,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 16:00 | Campus Ceilândia Futevôlei Masc. Pontos Corridos - Rodada 5 (Jogo 10) Futevôlei M2 x Futevôlei M4 (1 set de 18 pts)",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6543,8 +6543,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_105",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000105",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Fase de Grupos",
     "rodada": 1,
     "data_hora": "2026-11-27T15:00:00Z",
@@ -6552,7 +6552,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Sexta-feira 15:00 | Campus Planaltina Futsal Masculino Playoff Preliminar (2ºs Colocados) 2º Melhor 2º Colocado x 3º Melhor 2º Colocado",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6562,17 +6562,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_105_1",
-        "partida_id": "part_105",
+        "id": "00000000-0000-0000-0006-000000000077",
+        "partida_id": "00000000-0000-0000-0005-000000000105",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "2º Melhor 2º Colocado",
         "vencedor": false,
         "equipe": {
           "nome": "2º Melhor 2º Colocado",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6581,17 +6581,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_105_2",
-        "partida_id": "part_105",
+        "id": "00000000-0000-0000-0006-000000000078",
+        "partida_id": "00000000-0000-0000-0005-000000000105",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "3º Melhor 2º Colocado",
         "vencedor": false,
         "equipe": {
           "nome": "3º Melhor 2º Colocado",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6602,8 +6602,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_106",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000106",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-12-1T15:00:00Z",
@@ -6611,7 +6611,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Terça-feira 15:00 | Campus Brasília Futsal Masculino Playoff Final (Vaga na Semifinal) 1º Melhor 2º Colocado x Vencedor Playoff Preliminar",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6621,17 +6621,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_106_1",
-        "partida_id": "part_106",
+        "id": "00000000-0000-0000-0006-000000000079",
+        "partida_id": "00000000-0000-0000-0005-000000000106",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "1º Melhor 2º Colocado",
         "vencedor": false,
         "equipe": {
           "nome": "1º Melhor 2º Colocado",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6640,17 +6640,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_106_2",
-        "partida_id": "part_106",
+        "id": "00000000-0000-0000-0006-000000000080",
+        "partida_id": "00000000-0000-0000-0005-000000000106",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Vencedor Playoff Preliminar",
         "vencedor": false,
         "equipe": {
           "nome": "Vencedor Playoff Preliminar",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6661,8 +6661,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_107",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000107",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-12-2T14:30:00Z",
@@ -6670,7 +6670,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 14:30 | Campus Taguatinga Vôlei (Quadra Misto) Disputa de 3º Lugar Perdedor Semifinal 1 x Perdedor Semifinal 2",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6680,17 +6680,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_107_1",
-        "partida_id": "part_107",
+        "id": "00000000-0000-0000-0006-000000000081",
+        "partida_id": "00000000-0000-0000-0005-000000000107",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Disputa de 3º Lugar Perdedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "Disputa de 3º Lugar Perdedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "3",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000003",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6699,17 +6699,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_107_2",
-        "partida_id": "part_107",
+        "id": "00000000-0000-0000-0006-000000000082",
+        "partida_id": "00000000-0000-0000-0005-000000000107",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Perdedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Perdedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "3",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000003",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6720,8 +6720,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_108",
-    "modalidade_id": "3",
+    "id": "00000000-0000-0000-0005-000000000108",
+    "modalidade_id": "00000000-0000-0000-0002-000000000003",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-12-2T16:00:00Z",
@@ -6729,7 +6729,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quarta-feira 16:00 | Campus Taguatinga Vôlei (Quadra Misto) Final Vencedor Semifinal 1 x Vencedor Semifinal 2",
     "modalidade": {
-      "id": "3",
+      "id": "00000000-0000-0000-0002-000000000003",
       "nome": "Vôlei de Quadra",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6739,17 +6739,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_108_1",
-        "partida_id": "part_108",
+        "id": "00000000-0000-0000-0006-000000000083",
+        "partida_id": "00000000-0000-0000-0005-000000000108",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Final Vencedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "Final Vencedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "3",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000003",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6758,17 +6758,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_108_2",
-        "partida_id": "part_108",
+        "id": "00000000-0000-0000-0006-000000000084",
+        "partida_id": "00000000-0000-0000-0005-000000000108",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Vencedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Vencedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "3",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000003",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6779,8 +6779,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_109",
-    "modalidade_id": "5",
+    "id": "00000000-0000-0000-0005-000000000109",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-12-03T14:00:00Z",
@@ -6788,7 +6788,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 14:00 | Campus Estrutural Handebol Misto Adaptado Disputa de 3º Lugar Perdedor Semifinal 1 x Perdedor Semifinal 2",
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6798,17 +6798,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_109_1",
-        "partida_id": "part_109",
+        "id": "00000000-0000-0000-0006-000000000085",
+        "partida_id": "00000000-0000-0000-0005-000000000109",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Estrutural Handebol Misto Adaptado Disputa de 3º Lugar Perdedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Estrutural Handebol Misto Adaptado Disputa de 3º Lugar Perdedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "5",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000005",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6817,17 +6817,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_109_2",
-        "partida_id": "part_109",
+        "id": "00000000-0000-0000-0006-000000000086",
+        "partida_id": "00000000-0000-0000-0005-000000000109",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Perdedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Perdedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "5",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000005",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6838,8 +6838,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_110",
-    "modalidade_id": "5",
+    "id": "00000000-0000-0000-0005-000000000110",
+    "modalidade_id": "00000000-0000-0000-0002-000000000005",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-12-03T15:00:00Z",
@@ -6847,7 +6847,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 15:00 | Campus Estrutural Handebol Misto Adaptado Final Vencedor Semifinal 1 x Vencedor Semifinal 2",
     "modalidade": {
-      "id": "5",
+      "id": "00000000-0000-0000-0002-000000000005",
       "nome": "Handebol",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6857,17 +6857,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_110_1",
-        "partida_id": "part_110",
+        "id": "00000000-0000-0000-0006-000000000087",
+        "partida_id": "00000000-0000-0000-0005-000000000110",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Campus Estrutural Handebol Misto Adaptado Final Vencedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "Campus Estrutural Handebol Misto Adaptado Final Vencedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "5",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000005",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6876,17 +6876,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_110_2",
-        "partida_id": "part_110",
+        "id": "00000000-0000-0000-0006-000000000088",
+        "partida_id": "00000000-0000-0000-0005-000000000110",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Vencedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Vencedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "5",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000005",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6897,8 +6897,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_111",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000111",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-12-03T16:00:00Z",
@@ -6906,7 +6906,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 16:00 | Campus Estrutural Futsal Masculino Semifinal 1 1º Colocado Geral entre Líderes x Vencedor do Playoff",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6916,17 +6916,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_111_1",
-        "partida_id": "part_111",
+        "id": "00000000-0000-0000-0006-000000000089",
+        "partida_id": "00000000-0000-0000-0005-000000000111",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "deres",
         "vencedor": false,
         "equipe": {
           "nome": "deres",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6935,17 +6935,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_111_2",
-        "partida_id": "part_111",
+        "id": "00000000-0000-0000-0006-000000000090",
+        "partida_id": "00000000-0000-0000-0005-000000000111",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Vencedor do Playoff",
         "vencedor": false,
         "equipe": {
           "nome": "Vencedor do Playoff",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -6956,8 +6956,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_112",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000112",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-12-03T17:00:00Z",
@@ -6965,7 +6965,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Quinta-feira 17:00 | Campus Estrutural Futsal Masculino Semifinal 2 2º Colocado Geral entre Líderes x 3º Colocado Geral entre Líderes",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6976,8 +6976,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "confrontos": []
   },
   {
-    "id": "part_113",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000113",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-12-04T14:30:00Z",
@@ -6985,7 +6985,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Sexta-feira 14:30 | Campus Brasília Futsal Masculino Disputa de 3º Lugar Perdedor Semifinal 1 x Perdedor Semifinal 2",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -6995,17 +6995,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_113_1",
-        "partida_id": "part_113",
+        "id": "00000000-0000-0000-0006-000000000091",
+        "partida_id": "00000000-0000-0000-0005-000000000113",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "lia Futsal Masculino Disputa de 3º Lugar Perdedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "lia Futsal Masculino Disputa de 3º Lugar Perdedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -7014,17 +7014,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_113_2",
-        "partida_id": "part_113",
+        "id": "00000000-0000-0000-0006-000000000092",
+        "partida_id": "00000000-0000-0000-0005-000000000113",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Perdedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Perdedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -7035,8 +7035,8 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     ]
   },
   {
-    "id": "part_114",
-    "modalidade_id": "1",
+    "id": "00000000-0000-0000-0005-000000000114",
+    "modalidade_id": "00000000-0000-0000-0002-000000000001",
     "fase": "Semifinal",
     "rodada": 1,
     "data_hora": "2026-12-04T16:00:00Z",
@@ -7044,7 +7044,7 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     "status": "AGENDADA",
     "observacoes": "Sexta-feira 16:00 | Campus Brasília Futsal Masculino Final Vencedor Semifinal 1 x Vencedor Semifinal 2",
     "modalidade": {
-      "id": "1",
+      "id": "00000000-0000-0000-0002-000000000001",
       "nome": "Futsal",
       "tipo": "COLETIVA",
       "categoria": "MISTO",
@@ -7054,17 +7054,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
     },
     "confrontos": [
       {
-        "id": "conf_part_114_1",
-        "partida_id": "part_114",
+        "id": "00000000-0000-0000-0006-000000000093",
+        "partida_id": "00000000-0000-0000-0005-000000000114",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "lia Futsal Masculino Final Vencedor Semifinal 1",
         "vencedor": false,
         "equipe": {
           "nome": "lia Futsal Masculino Final Vencedor Semifinal 1",
-          "id": "temp_a",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000998",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
@@ -7073,17 +7073,17 @@ export const PARTIDAS_EXEMPLO: Partida[] = [
         }
       },
       {
-        "id": "conf_part_114_2",
-        "partida_id": "part_114",
+        "id": "00000000-0000-0000-0006-000000000094",
+        "partida_id": "00000000-0000-0000-0005-000000000114",
         "equipe_id": null,
         "pontuacao_final": 0,
         "detalhes_pontuacao": "Vencedor Semifinal 2",
         "vencedor": false,
         "equipe": {
           "nome": "Vencedor Semifinal 2",
-          "id": "temp_b",
-          "modalidade_id": "1",
-          "campus_id": "11",
+          "id": "00000000-0000-0000-0003-000000000999",
+          "modalidade_id": "00000000-0000-0000-0002-000000000001",
+          "campus_id": "00000000-0000-0000-0001-000000000011",
           "capitao_nome": "",
           "capitao_matricula": "",
           "capitao_email": "",
