@@ -65,7 +65,8 @@ export default function HomePage() {
 
     // Escuta em tempo real se o Supabase estiver configurado
     if (isSupabaseConfigured && supabase) {
-      const channel = supabase
+      const client = supabase;
+      const channel = client
         .channel('realtime_jis_updates')
         .on('postgres_changes', { event: '*', schema: 'public', table: 'partida' }, async () => {
           const pts = await getPartidas();
@@ -86,7 +87,7 @@ export default function HomePage() {
         .subscribe();
 
       return () => {
-        supabase.removeChannel(channel);
+        client.removeChannel(channel);
       };
     }
   }, []);
