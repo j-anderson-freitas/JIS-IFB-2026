@@ -24,13 +24,13 @@ export interface Equipe {
   modalidade_id: string;
   campus_id: string;
   nome: string;
-  avatar_url?: string;
+  avatar_url?: string | null;
   capitao_nome: string;
   capitao_matricula: string;
   capitao_email: string;
   lista_participantes: string[];
   categoria: CategoriaGenero;
-  preferencia_periodo?: string;
+  preferencia_periodo?: string | null;
   campus?: Campus;
   modalidade?: Modalidade;
 }
@@ -40,9 +40,9 @@ export interface ParticipanteIndividual {
   modalidade_id: string;
   campus_id: string;
   nome: string;
-  matricula?: string;
+  matricula?: string | null;
   categoria: CategoriaGenero;
-  colocacao_final?: number;
+  colocacao_final?: number | null;
   campus?: Campus;
   modalidade?: Modalidade;
 }
@@ -55,7 +55,7 @@ export interface Partida {
   data_hora: string;
   local_jogo: string;
   status: StatusPartida;
-  observacoes?: string;
+  observacoes?: string | null;
   modalidade?: Modalidade;
   confrontos?: PartidaConfronto[];
 }
@@ -63,10 +63,10 @@ export interface Partida {
 export interface PartidaConfronto {
   id: string;
   partida_id: string;
-  equipe_id?: string;
-  participante_id?: string;
+  equipe_id?: string | null;
+  participante_id?: string | null;
   pontuacao_final: number;
-  detalhes_pontuacao?: string;
+  detalhes_pontuacao?: string | null;
   vencedor: boolean;
   equipe?: Equipe;
   participante?: ParticipanteIndividual;
@@ -77,12 +77,12 @@ export interface ComissaoOrganizadora {
   nome: string;
   matricula: string;
   funcao: string;
-  lotacao_campus_id?: string;
-  subcomissao_modalidade_id?: string;
-  subcomissao_nome?: string;
-  contato?: string;
+  lotacao_campus_id?: string | null;
+  subcomissao_modalidade_id?: string | null;
+  subcomissao_nome?: string | null;
+  contato?: string | null;
   lotacao?: Campus;
-  subcomissao?: Modalidade;
+  subcomissao?: Modalidade | null;
 }
 
 export interface PontuacaoGeralCampus {

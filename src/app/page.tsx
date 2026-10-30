@@ -603,12 +603,12 @@ export default function HomePage() {
                   <p className="text-xs text-slate-500 font-medium">Horários, locais e confrontos por data</p>
                 </div>
 
-                {/* Alerta de Sorteio */}
-                <div className="bg-amber-50 border-2 border-amber-300 p-4 rounded-2xl flex items-start gap-3 shadow-xs">
-                  <Info className="w-5 h-5 text-amber-700 flex-shrink-0 mt-0.5" />
-                  <div className="text-xs text-amber-900 leading-relaxed">
-                    <p className="font-bold text-sm mb-0.5">Sorteio dos Chaveamentos Coletivos em Breve</p>
-                    <p>O sorteio das chaves para Futsal, Vôlei de Areia, Queimada, Basquete 3x3, Handebol e Futevôlei ainda será transmitido e homologado pela Comissão. O cronograma abaixo reflete as reservas de quadras e horários das rodadas preliminares.</p>
+                {/* Alerta de Chaveamentos */}
+                <div className="bg-emerald-50 border-2 border-emerald-300 p-4 rounded-2xl flex items-start gap-3 shadow-xs">
+                  <Info className="w-5 h-5 text-emerald-700 flex-shrink-0 mt-0.5" />
+                  <div className="text-xs text-emerald-900 leading-relaxed">
+                    <p className="font-bold text-sm mb-0.5">Chaveamentos e Grupos Oficiais Homologados</p>
+                    <p>Os sorteios de chaves e a composição de todos os grupos foram homologados pela Comissão no Congresso Técnico (27/10/2026). O cronograma abaixo reflete todas as 115 partidas e eventos agendados com datas, horários e locais definitivos.</p>
                   </div>
                 </div>
 
@@ -713,12 +713,27 @@ export default function HomePage() {
                       <div className="w-11 h-11 rounded-xl bg-slate-100 text-[#1E2D3C] flex items-center justify-center font-bold flex-shrink-0">
                         <Shield className="w-5 h-5 text-[#288C28]" />
                       </div>
-                      <div>
-                        <h4 className="font-bold text-sm text-[#1E2D3C]">{m.nome}</h4>
+                      <div className="flex-1">
+                        <div className="flex items-center justify-between gap-2">
+                          <h4 className="font-bold text-sm text-[#1E2D3C]">{m.nome}</h4>
+                          <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
+                            {m.subcomissao_nome || m.subcomissao?.nome || 'Coordenação'}
+                          </span>
+                        </div>
                         <p className="text-xs font-semibold text-[#288C28]">{m.funcao}</p>
-                        <p className="text-[11px] text-slate-500 font-medium">
-                          Lotação: {m.lotacao?.nome || 'IFB'} • Matrícula: {m.matricula}
-                        </p>
+                        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1 text-[11px] text-slate-500 font-medium">
+                          <span>Lotação: {m.lotacao?.nome || 'IFB'}</span>
+                          <span>•</span>
+                          <span>SIAPE: {m.matricula}</span>
+                          {m.contato && (
+                            <>
+                              <span>•</span>
+                              <a href={`mailto:${m.contato}`} className="text-[#F57656] hover:underline font-mono">
+                                {m.contato}
+                              </a>
+                            </>
+                          )}
+                        </div>
                       </div>
                     </div>
                   ))}
